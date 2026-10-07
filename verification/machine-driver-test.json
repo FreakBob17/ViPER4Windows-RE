@@ -1,0 +1,145 @@
+{
+  "Utc": "2026-10-07T17:24:51.936120+00:00",
+  "InstalledApoVerifiedAgainstBundledInstaller": true,
+  "InstalledApoSha256": "fdb2ee02741573f26eb97499f4391480a975e8a49fe04d9bc06047ade3d08e8a",
+  "PhysicalEndpoint": {
+    "Id": "{0.0.0.00000000}.{7503c3b2-a874-4df3-ad4a-bab4da4aaf0a}",
+    "Name": "Динамики с задней стороны (Realtek USB2.0 Audio)",
+    "State": 1,
+    "IsVirtual": false,
+    "MixFormat": {
+      "SampleRate": 48000,
+      "Channels": 2,
+      "BitsPerSample": 32,
+      "ValidBits": 32,
+      "BlockAlign": 8,
+      "ChannelMask": "0x3",
+      "Encoding": "IEEE float"
+    },
+    "DefaultPeriodMilliseconds": 10,
+    "MinimumPeriodMilliseconds": 3
+  },
+  "PhysicalEndpointRegistration": {
+    "Summary": "Выход: Динамики с задней стороны (Realtek USB2.0 Audio)\nДрайвер: установлен\nРегистрация выхода: есть\nЗвуковые улучшения: разрешены\nПрава администратора: нет\nDLL: C:\\Program Files\\ViPER4Windows\\ViPER4WindowsAPO.dll",
+    "Installed": true,
+    "Registered": true,
+    "EffectsDisabled": false,
+    "IsAdmin": false,
+    "EndpointId": "{7503c3b2-a874-4df3-ad4a-bab4da4aaf0a}",
+    "EndpointName": "Динамики с задней стороны (Realtek USB2.0 Audio)",
+    "DriverPath": "C:\\Program Files\\ViPER4Windows\\ViPER4WindowsAPO.dll",
+    "Problem": null,
+    "HasForeignModeEffect": false,
+    "ProtectedAudioDisabled": true
+  },
+  "AudioServiceRefreshed": {
+    "Success": true,
+    "VirtualPrepared": true,
+    "AudioServiceRestarted": true,
+    "ClosedController": "D:\\downloads\\dsds\\ViPER4Windows\\ViPER4Windows-RE.exe",
+    "Events": [
+      {
+        "TimeUtc": "2026-10-07T16:55:50.9581433Z",
+        "Phase": "Saving current settings and closing the old controller"
+      },
+      {
+        "TimeUtc": "2026-10-07T16:55:51.0693785Z",
+        "Phase": "Preparing the virtual ViPER endpoint with backups"
+      },
+      {
+        "TimeUtc": "2026-10-07T16:55:53.0061966Z",
+        "Phase": "Refreshing Windows Audio to load the current driver configuration"
+      },
+      {
+        "TimeUtc": "2026-10-07T16:55:54.8421477Z",
+        "Phase": "Completed preparation"
+      }
+    ]
+  },
+  "RealApoProcessingVerified": true,
+  "ApoDriverStatusBefore": {
+    "Connected": true,
+    "Configured": false,
+    "SampleRate": 0,
+    "Frames": 0,
+    "Version": ""
+  },
+  "ApoDriverStatusAfter": {
+    "Connected": true,
+    "Configured": true,
+    "SampleRate": 48000,
+    "Frames": 233280,
+    "Version": "2.0.0(260816)"
+  },
+  "ApoLoadedModule": {
+    "HarnessExitCode": 0,
+    "Modules": {
+      "ModuleName": "ViPER4WindowsAPO.dll",
+      "FileName": "C:\\Program Files\\ViPER4Windows\\ViPER4WindowsAPO.dll"
+    },
+    "FinishedUtc": "2026-10-07T17:08:20.8313848Z"
+  },
+  "ApoTonalABAfterRefreshTested": false,
+  "VirtualEndToEndBassAndEqVerified": true,
+  "VirtualEndpoint": {
+    "Id": "{0.0.0.00000000}.{df8b4c41-ca90-47f2-9875-739cac727724}",
+    "Name": "ViPER (FxSound Audio Enhancer)",
+    "IsVirtual": true,
+    "IsFxSound": true,
+    "Adapter": "FxSound Audio Enhancer"
+  },
+  "VirtualDriverImplementation": "Existing installed FxSound virtual audio driver, renamed through endpoint DeviceDesc. No new kernel driver was created.",
+  "Transport": "Stereo float32 48000 Hz; WASAPI loopback from virtual render device; native ViPERDSP; RAW physical rendering with Windows sample-rate conversion and bounded clock adjustment.",
+  "ApoRemovedFromVirtualSource": true,
+  "LiveApplicationPath": "D:\\downloads\\dsds\\ViPER4Windows\\ViPER4Windows-RE.exe",
+  "LiveApplicationSha256": "5fc00efb22887aaaf698ed664f3aada8c37ca5d28259fcfd61f48d292cb3e877",
+  "NativeDspSha256": "d432f8b955b1737893b92d5d9fe2d93058c0208f0c8d76e2a49a42828158f33b",
+  "LiveDefaults": [
+    "{0.0.0.00000000}.{df8b4c41-ca90-47f2-9875-739cac727724}",
+    "{0.0.0.00000000}.{df8b4c41-ca90-47f2-9875-739cac727724}",
+    "{0.0.0.00000000}.{df8b4c41-ca90-47f2-9875-739cac727724}"
+  ],
+  "LiveProcessorStatus": {
+    "TimestampUtc": "2026-10-07T17:24:51.3224425+00:00",
+    "IsRunning": true,
+    "Source": "{0.0.0.00000000}.{df8b4c41-ca90-47f2-9875-739cac727724}",
+    "Output": "{0.0.0.00000000}.{7503c3b2-a874-4df3-ad4a-bab4da4aaf0a}",
+    "EffectsEnabled": true,
+    "ProcessedFrames": 27193440,
+    "RenderedFrames": 27191731,
+    "InputPeak": 0,
+    "OutputPeak": 7.460697e-16,
+    "QueueMilliseconds": 25.604166666666668,
+    "DeviceLatencyMilliseconds": 0,
+    "Discontinuities": 1,
+    "DroppedFrames": 0,
+    "Underruns": 0,
+    "Error": ""
+  },
+  "GracefulQuitRestoredDefaults": [
+    "{0.0.0.00000000}.{7503c3b2-a874-4df3-ad4a-bab4da4aaf0a}",
+    "{0.0.0.00000000}.{7503c3b2-a874-4df3-ad4a-bab4da4aaf0a}",
+    "{0.0.0.00000000}.{25a25655-86da-4d3a-9419-c118d8059c36}"
+  ],
+  "Reports": [
+    "system-audio-test.json",
+    "system-audio-volume.json",
+    "system-audio-soak.json",
+    "system-audio-watchdog.json",
+    "application-tests.json",
+    "application-tests-oct7.json",
+    "ui-tests.json",
+    "ui-tests-oct7.json",
+    "driver-setup-tests.json",
+    "apo-after-refresh.json",
+    "apo-loaded-module.json"
+  ],
+  "Limitations": [
+    "Physical-output measurements use WASAPI speaker loopback; analog headphone/speaker sound was not recorded.",
+    "APO acknowledgement/frame growth was verified after the audio-service refresh. APO-specific bass/EQ A/B after this refresh was not performed.",
+    "The current application was idle at the last status capture; isolated generated tones were used in the separately reported end-to-end tests.",
+    "120-second soak used the continuous silent keepalive to check clock/queue stability; effect changes were tested separately.",
+    "Applications with an explicit different output, exclusive streams and protected content are not guaranteed to use the virtual route.",
+    "The existing fidelity audit remains applicable; complete Android waveform or combined-preset identity is not guaranteed."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "tests": [
+    "Windowed-sinc IR resampling, per-channel DC gain, zero DC, isolation, duration and original file reference",
+    "APK default mappings and normalized FET snapshot",
+    "APO v2 snapshot and actual Interlocked publication",
+    "Padded IR, kernel identity, exact payload and deduplicated bulk",
+    "DDC section counts, both rates and asset unload",
+    "Oversized bulk rejected before parameter commit",
+    "Stereo shape and disposed handle validation"
+  ]
+}

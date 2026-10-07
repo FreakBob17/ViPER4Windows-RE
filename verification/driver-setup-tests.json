@@ -1,0 +1,38 @@
+{
+  "Scope": "HKEY_CURRENT_USER synthetic endpoint only",
+  "ProductionSourceChange": "Native predefined root handle HKLM changed to HKCU in test-only copy",
+  "Results": [
+    {
+      "Name": "Exact endpoint GUID validation",
+      "Success": true
+    },
+    {
+      "Name": "Raw snapshot captures values and owner/DACL",
+      "Success": true
+    },
+    {
+      "Name": "Only ViPER placement removed from mixed stream list",
+      "Success": true
+    },
+    {
+      "Name": "Five-slot restore returns exact raw original and keeps later unrelated values",
+      "Success": true
+    },
+    {
+      "Name": "Foreign MFX predicate refuses foreign CLSID, allows ViPER and empty placeholder",
+      "Success": true
+    },
+    {
+      "Name": "Backup tampering rejected before writes",
+      "Success": true
+    },
+    {
+      "Name": "Absent-slot restore deletes only five newly added values",
+      "Success": true
+    },
+    {
+      "Name": "JSON roundtrip preserves all raw snapshot data",
+      "Success": true
+    }
+  ]
+}

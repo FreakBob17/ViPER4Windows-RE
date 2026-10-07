@@ -1,0 +1,422 @@
+[
+  {
+    "id": 36866,
+    "name": "PARAM_SET_UPDATE_STATUS",
+    "native_supported": true,
+    "units": "integer"
+  },
+  {
+    "id": 36867,
+    "name": "PARAM_SET_RESET_STATUS",
+    "native_supported": true,
+    "units": "integer"
+  },
+  {
+    "id": 65538,
+    "name": "PARAM_CONVOLUTION_ENABLE",
+    "native_supported": true,
+    "units": "boolean"
+  },
+  {
+    "id": 65540,
+    "name": "PARAM_CONVOLUTION_PREPARE_BUFFER",
+    "native_supported": false,
+    "units": "use dedicated vp_load_ddc / vp_load_ir API"
+  },
+  {
+    "id": 65541,
+    "name": "PARAM_CONVOLUTION_SET_BUFFER",
+    "native_supported": false,
+    "units": "use dedicated vp_load_ddc / vp_load_ir API"
+  },
+  {
+    "id": 65542,
+    "name": "PARAM_CONVOLUTION_COMMIT_BUFFER",
+    "native_supported": false,
+    "units": "use dedicated vp_load_ddc / vp_load_ir API"
+  },
+  {
+    "id": 65543,
+    "name": "PARAM_CONVOLUTION_CROSS_CHANNEL",
+    "native_supported": true,
+    "units": "integer / 100 = native float"
+  },
+  {
+    "id": 65544,
+    "name": "PARAM_HEADPHONE_SURROUND_ENABLE",
+    "native_supported": true,
+    "units": "boolean"
+  },
+  {
+    "id": 65545,
+    "name": "PARAM_HEADPHONE_SURROUND_STRENGTH",
+    "native_supported": true,
+    "units": "integer"
+  },
+  {
+    "id": 65546,
+    "name": "PARAM_DDC_ENABLE",
+    "native_supported": true,
+    "units": "boolean"
+  },
+  {
+    "id": 65547,
+    "name": "PARAM_DDC_COEFFICIENTS",
+    "native_supported": false,
+    "units": "use dedicated vp_load_ddc / vp_load_ir API"
+  },
+  {
+    "id": 65548,
+    "name": "PARAM_SPECTRUM_EXTENSION_ENABLE",
+    "native_supported": true,
+    "units": "boolean"
+  },
+  {
+    "id": 65549,
+    "name": "PARAM_SPECTRUM_EXTENSION_BARK",
+    "native_supported": true,
+    "units": "integer"
+  },
+  {
+    "id": 65550,
+    "name": "PARAM_SPECTRUM_EXTENSION_BARK_RECONSTRUCT",
+    "native_supported": true,
+    "units": "integer / 100 = native float"
+  },
+  {
+    "id": 65551,
+    "name": "PARAM_FIR_EQUALIZER_ENABLE",
+    "native_supported": true,
+    "units": "boolean"
+  },
+  {
+    "id": 65552,
+    "name": "PARAM_FIR_EQUALIZER_BAND_LEVEL",
+    "native_supported": true,
+    "units": "value1=band index 0..9; value2=centi-dB"
+  },
+  {
+    "id": 65553,
+    "name": "PARAM_FIELD_SURROUND_ENABLE",
+    "native_supported": true,
+    "units": "boolean"
+  },
+  {
+    "id": 65554,
+    "name": "PARAM_FIELD_SURROUND_WIDENING",
+    "native_supported": true,
+    "units": "integer / 100 = native float"
+  },
+  {
+    "id": 65555,
+    "name": "PARAM_FIELD_SURROUND_MID_IMAGE",
+    "native_supported": true,
+    "units": "integer / 100 = native float"
+  },
+  {
+    "id": 65556,
+    "name": "PARAM_FIELD_SURROUND_DEPTH",
+    "native_supported": true,
+    "units": "integer"
+  },
+  {
+    "id": 65557,
+    "name": "PARAM_DIFFERENTIAL_SURROUND_ENABLE",
+    "native_supported": true,
+    "units": "boolean"
+  },
+  {
+    "id": 65558,
+    "name": "PARAM_DIFFERENTIAL_SURROUND_DELAY",
+    "native_supported": true,
+    "units": "integer"
+  },
+  {
+    "id": 65559,
+    "name": "PARAM_REVERBERATION_ENABLE",
+    "native_supported": true,
+    "units": "boolean"
+  },
+  {
+    "id": 65560,
+    "name": "PARAM_REVERBERATION_ROOM_SIZE",
+    "native_supported": true,
+    "units": "integer / 100 = native float"
+  },
+  {
+    "id": 65561,
+    "name": "PARAM_REVERBERATION_ROOM_WIDTH",
+    "native_supported": true,
+    "units": "integer / 100 = native float"
+  },
+  {
+    "id": 65562,
+    "name": "PARAM_REVERBERATION_ROOM_DAMPENING",
+    "native_supported": true,
+    "units": "integer / 100 = native float"
+  },
+  {
+    "id": 65563,
+    "name": "PARAM_REVERBERATION_ROOM_WET_SIGNAL",
+    "native_supported": true,
+    "units": "integer / 100 = native float"
+  },
+  {
+    "id": 65564,
+    "name": "PARAM_REVERBERATION_ROOM_DRY_SIGNAL",
+    "native_supported": true,
+    "units": "integer / 100 = native float"
+  },
+  {
+    "id": 65565,
+    "name": "PARAM_AUTOMATIC_GAIN_CONTROL_ENABLE",
+    "native_supported": true,
+    "units": "boolean"
+  },
+  {
+    "id": 65566,
+    "name": "PARAM_AUTOMATIC_GAIN_CONTROL_RATIO",
+    "native_supported": true,
+    "units": "integer / 100 = native float"
+  },
+  {
+    "id": 65567,
+    "name": "PARAM_AUTOMATIC_GAIN_CONTROL_VOLUME",
+    "native_supported": true,
+    "units": "integer / 100 = native float"
+  },
+  {
+    "id": 65568,
+    "name": "PARAM_AUTOMATIC_GAIN_CONTROL_MAX_SCALER",
+    "native_supported": true,
+    "units": "integer / 100 = native float"
+  },
+  {
+    "id": 65569,
+    "name": "PARAM_DYNAMIC_SYSTEM_ENABLE",
+    "native_supported": true,
+    "units": "boolean"
+  },
+  {
+    "id": 65570,
+    "name": "PARAM_DYNAMIC_SYSTEM_X_COEFFICIENTS",
+    "native_supported": true,
+    "units": "value1 and value2 = native integer coefficients"
+  },
+  {
+    "id": 65571,
+    "name": "PARAM_DYNAMIC_SYSTEM_Y_COEFFICIENTS",
+    "native_supported": true,
+    "units": "value1 and value2 = native integer coefficients"
+  },
+  {
+    "id": 65572,
+    "name": "PARAM_DYNAMIC_SYSTEM_SIDE_GAIN",
+    "native_supported": true,
+    "units": "value1/100 and value2/100 = side gains"
+  },
+  {
+    "id": 65573,
+    "name": "PARAM_DYNAMIC_SYSTEM_STRENGTH",
+    "native_supported": true,
+    "units": "integer / 100 = native float"
+  },
+  {
+    "id": 65574,
+    "name": "PARAM_FIDELITY_BASS_ENABLE",
+    "native_supported": true,
+    "units": "boolean"
+  },
+  {
+    "id": 65575,
+    "name": "PARAM_FIDELITY_BASS_MODE",
+    "native_supported": true,
+    "units": "integer"
+  },
+  {
+    "id": 65576,
+    "name": "PARAM_FIDELITY_BASS_FREQUENCY",
+    "native_supported": true,
+    "units": "integer"
+  },
+  {
+    "id": 65577,
+    "name": "PARAM_FIDELITY_BASS_GAIN",
+    "native_supported": true,
+    "units": "integer / 100 = native float"
+  },
+  {
+    "id": 65578,
+    "name": "PARAM_FIDELITY_CLARITY_ENABLE",
+    "native_supported": true,
+    "units": "boolean"
+  },
+  {
+    "id": 65579,
+    "name": "PARAM_FIDELITY_CLARITY_MODE",
+    "native_supported": true,
+    "units": "integer"
+  },
+  {
+    "id": 65580,
+    "name": "PARAM_FIDELITY_CLARITY_GAIN",
+    "native_supported": true,
+    "units": "integer / 100 = native float"
+  },
+  {
+    "id": 65581,
+    "name": "PARAM_CURE_CROSS_FEED_ENABLED",
+    "native_supported": true,
+    "units": "boolean"
+  },
+  {
+    "id": 65582,
+    "name": "PARAM_CURE_CROSS_FEED_STRENGTH",
+    "native_supported": true,
+    "units": "integer"
+  },
+  {
+    "id": 65583,
+    "name": "PARAM_TUBE_SIMULATOR_ENABLED",
+    "native_supported": true,
+    "units": "boolean"
+  },
+  {
+    "id": 65584,
+    "name": "PARAM_ANALOGX_ENABLE",
+    "native_supported": true,
+    "units": "boolean"
+  },
+  {
+    "id": 65585,
+    "name": "PARAM_ANALOGX_MODE",
+    "native_supported": true,
+    "units": "integer"
+  },
+  {
+    "id": 65586,
+    "name": "PARAM_GATE_OUTPUT_VOLUME",
+    "native_supported": true,
+    "units": "integer / 100 = native float"
+  },
+  {
+    "id": 65587,
+    "name": "PARAM_GATE_CHANNEL_PAN",
+    "native_supported": true,
+    "units": "integer / 100 = native float"
+  },
+  {
+    "id": 65588,
+    "name": "PARAM_GATE_LIMIT",
+    "native_supported": true,
+    "units": "integer / 100 = native float"
+  },
+  {
+    "id": 65603,
+    "name": "PARAM_SPEAKER_OPTIMIZATION",
+    "native_supported": true,
+    "units": "boolean"
+  },
+  {
+    "id": 65610,
+    "name": "PARAM_FET_COMPRESSOR_ENABLE",
+    "native_supported": true,
+    "units": "boolean"
+  },
+  {
+    "id": 65611,
+    "name": "PARAM_FET_COMPRESSOR_THRESHOLD",
+    "native_supported": true,
+    "units": "normalized percent 0..100; nonlinear original FET mapping"
+  },
+  {
+    "id": 65612,
+    "name": "PARAM_FET_COMPRESSOR_RATIO",
+    "native_supported": true,
+    "units": "normalized percent 0..100; nonlinear original FET mapping"
+  },
+  {
+    "id": 65613,
+    "name": "PARAM_FET_COMPRESSOR_KNEE",
+    "native_supported": true,
+    "units": "normalized percent 0..100; nonlinear original FET mapping"
+  },
+  {
+    "id": 65614,
+    "name": "PARAM_FET_COMPRESSOR_AUTO_KNEE",
+    "native_supported": true,
+    "units": "boolean"
+  },
+  {
+    "id": 65615,
+    "name": "PARAM_FET_COMPRESSOR_GAIN",
+    "native_supported": true,
+    "units": "normalized percent 0..100; nonlinear original FET mapping"
+  },
+  {
+    "id": 65616,
+    "name": "PARAM_FET_COMPRESSOR_AUTO_GAIN",
+    "native_supported": true,
+    "units": "boolean"
+  },
+  {
+    "id": 65617,
+    "name": "PARAM_FET_COMPRESSOR_ATTACK",
+    "native_supported": true,
+    "units": "normalized percent 0..100; nonlinear original FET mapping"
+  },
+  {
+    "id": 65618,
+    "name": "PARAM_FET_COMPRESSOR_AUTO_ATTACK",
+    "native_supported": true,
+    "units": "boolean"
+  },
+  {
+    "id": 65619,
+    "name": "PARAM_FET_COMPRESSOR_RELEASE",
+    "native_supported": true,
+    "units": "normalized percent 0..100; nonlinear original FET mapping"
+  },
+  {
+    "id": 65620,
+    "name": "PARAM_FET_COMPRESSOR_AUTO_RELEASE",
+    "native_supported": true,
+    "units": "boolean"
+  },
+  {
+    "id": 65621,
+    "name": "PARAM_FET_COMPRESSOR_KNEE_MULTI",
+    "native_supported": true,
+    "units": "normalized percent 0..100; nonlinear original FET mapping"
+  },
+  {
+    "id": 65622,
+    "name": "PARAM_FET_COMPRESSOR_MAX_ATTACK",
+    "native_supported": true,
+    "units": "normalized percent 0..100; nonlinear original FET mapping"
+  },
+  {
+    "id": 65623,
+    "name": "PARAM_FET_COMPRESSOR_MAX_RELEASE",
+    "native_supported": true,
+    "units": "normalized percent 0..100; nonlinear original FET mapping"
+  },
+  {
+    "id": 65624,
+    "name": "PARAM_FET_COMPRESSOR_CREST",
+    "native_supported": true,
+    "units": "normalized percent 0..100; nonlinear original FET mapping"
+  },
+  {
+    "id": 65625,
+    "name": "PARAM_FET_COMPRESSOR_ADAPT",
+    "native_supported": true,
+    "units": "normalized percent 0..100; nonlinear original FET mapping"
+  },
+  {
+    "id": 65626,
+    "name": "PARAM_FET_COMPRESSOR_NO_CLIP",
+    "native_supported": true,
+    "units": "boolean"
+  }
+]

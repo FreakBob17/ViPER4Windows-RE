@@ -1,0 +1,96 @@
+{
+  "Mode": "master",
+  "Endpoint": {
+    "Id": "{0.0.0.00000000}.{7503c3b2-a874-4df3-ad4a-bab4da4aaf0a}",
+    "Name": "\u0414\u0438\u043D\u0430\u043C\u0438\u043A\u0438 \u0441 \u0437\u0430\u0434\u043D\u0435\u0439 \u0441\u0442\u043E\u0440\u043E\u043D\u044B (Realtek USB2.0 Audio)",
+    "State": 1,
+    "IsVirtual": false,
+    "MixFormat": {
+      "SampleRate": 48000,
+      "Channels": 2,
+      "BitsPerSample": 32,
+      "ValidBits": 32,
+      "BlockAlign": 8,
+      "ChannelMask": "0x3",
+      "Encoding": "IEEE float"
+    },
+    "DefaultPeriodMilliseconds": 10,
+    "MinimumPeriodMilliseconds": 3
+  },
+  "SampleRate": 48000,
+  "CapturedFrames": 238080,
+  "SourceFrames": 218400,
+  "SourcePeakAmplitude": 0.015,
+  "ReportedRenderLatencyMilliseconds": 0,
+  "Packets": 496,
+  "Discontinuities": 1,
+  "TimestampErrors": 0,
+  "FirstDevicePosition": 0,
+  "FirstQpc100ns": 204907420755,
+  "SourcePath": "C:\\Users\\danii\\Documents\\Codex\\2026-10-01\\x20\\work\\system-audio-test\\apo-after-refresh\\source.wav",
+  "CapturePath": "C:\\Users\\danii\\Documents\\Codex\\2026-10-01\\x20\\work\\system-audio-test\\apo-after-refresh\\master-loopback.wav",
+  "DriverBefore": {
+    "Connected": true,
+    "Configured": false,
+    "SampleRate": 0,
+    "Frames": 0,
+    "Version": ""
+  },
+  "DriverAfter": {
+    "Connected": true,
+    "Configured": true,
+    "SampleRate": 48000,
+    "Frames": 233280,
+    "Version": "2.0.0(260816)"
+  },
+  "Measurements": {
+    "Rms": 0.008884216111985782,
+    "Peak": 0.014999999664723873,
+    "SignalDetected": true,
+    "EstimatedStartOffsetMilliseconds": 10.000000000000009,
+    "Tones": [
+      {
+        "FrequencyHz": 63,
+        "Amplitude": 0.015014689840429075,
+        "PeakDbfs": -36.469672692518664,
+        "Rms": 0.010611731704753886,
+        "TonePurity": 1.0004954232704468
+      },
+      {
+        "FrequencyHz": 125,
+        "Amplitude": 0.014999999978981637,
+        "PeakDbfs": -36.47817483105725,
+        "Rms": 0.010606601712381246,
+        "TonePurity": 0.9999999991094923
+      },
+      {
+        "FrequencyHz": 250,
+        "Amplitude": 0.014999999975416909,
+        "PeakDbfs": -36.47817483312144,
+        "Rms": 0.010606601684506872,
+        "TonePurity": 1.000000001499865
+      },
+      {
+        "FrequencyHz": 1000,
+        "Amplitude": 0.01499999975451997,
+        "PeakDbfs": -36.47817496103387,
+        "Rms": 0.010606601533805906,
+        "TonePurity": 1.0000000009816257
+      },
+      {
+        "FrequencyHz": 4000,
+        "Amplitude": 0.01499999959021027,
+        "PeakDbfs": -36.478175056178934,
+        "Rms": 0.01060660151236891,
+        "TonePurity": 0.9999999920487448
+      },
+      {
+        "FrequencyHz": 8000,
+        "Amplitude": 0.014999999515696949,
+        "PeakDbfs": -36.47817509932657,
+        "Rms": 0.010606601398038264,
+        "TonePurity": 0.9999999978603868
+      }
+    ]
+  }
+}

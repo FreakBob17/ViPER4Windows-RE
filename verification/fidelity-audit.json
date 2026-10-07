@@ -1,0 +1,1838 @@
+{
+  "scope": "Source-to-source DSP comparison; not a captured Android device or proof that original source equals supplied .so binaries.",
+  "original_source": "AndroidAudioMods/ViPERFX_RE rewrite-continued version0.6.1/code20231210",
+  "modern_source": "ViPERDSP db1c11cbe377eb35af6574abe75e3bb009910d88",
+  "modern_dll_sha256": "d432f8b955b1737893b92d5d9fe2d93058c0208f0c8d76e2a49a42828158f33b",
+  "method": "Deterministic stereo low-level multitone+seeded noise. Original individual effect bypasses original limiter; modern native chain has only that effect enabled. Modern256-frame lookahead aligned. Comparison after2seconds discards startup. 480-frame blocks. Modern output stays below1 for these single-effect fixtures; original reverb exceeds1 because overlappingstereo bug and is interpreted separately.",
+  "rates": {
+    "44100": {
+      "dry": {
+        "relative_difference_rms": 0.0,
+        "difference_db_relative": -600.0,
+        "peak_difference": 0.0,
+        "gain_difference_db": 0.0,
+        "old_peak": 0.11152991652488708,
+        "pc_peak": 0.11152991652488708,
+        "tone_gain_difference_db": {
+          "53": 0.0,
+          "173": 0.0,
+          "601": 0.0,
+          "2003": 0.0,
+          "4231": 0.0,
+          "10007": 0.0,
+          "16001": 0.0
+        },
+        "commands": []
+      },
+      "equalizer": {
+        "relative_difference_rms": 0.0,
+        "difference_db_relative": -600.0,
+        "peak_difference": 0.0,
+        "gain_difference_db": 0.0,
+        "old_peak": 0.10259866714477539,
+        "pc_peak": 0.10259866714477539,
+        "tone_gain_difference_db": {
+          "53": 0.0,
+          "173": 0.0,
+          "601": 0.0,
+          "2003": 0.0,
+          "4231": 0.0,
+          "10007": 0.0,
+          "16001": 0.0
+        },
+        "commands": [
+          [
+            65552,
+            2,
+            600
+          ],
+          [
+            65552,
+            7,
+            -300
+          ],
+          [
+            65551,
+            1,
+            0
+          ]
+        ]
+      },
+      "field_surround": {
+        "relative_difference_rms": 0.32367817760255374,
+        "difference_db_relative": -9.797731595282935,
+        "peak_difference": 0.05083799734711647,
+        "gain_difference_db": -0.8003561481932359,
+        "old_peak": 0.16190940141677856,
+        "pc_peak": 0.151515930891037,
+        "tone_gain_difference_db": {
+          "53": -1.4097293189143014,
+          "173": -5.210304623531172,
+          "601": -0.29649957976524316,
+          "2003": -0.14254691018983046,
+          "4231": -3.23610140283024,
+          "10007": 1.2463118965826574,
+          "16001": 3.91992969038954
+        },
+        "commands": [
+          [
+            65554,
+            0,
+            0
+          ],
+          [
+            65555,
+            150,
+            0
+          ],
+          [
+            65556,
+            350,
+            0
+          ],
+          [
+            65553,
+            1,
+            0
+          ]
+        ]
+      },
+      "diff_surround": {
+        "relative_difference_rms": 0.0,
+        "difference_db_relative": -600.0,
+        "peak_difference": 0.0,
+        "gain_difference_db": 0.0,
+        "old_peak": 0.11152991652488708,
+        "pc_peak": 0.11152991652488708,
+        "tone_gain_difference_db": {
+          "53": 0.0,
+          "173": 0.0,
+          "601": 0.0,
+          "2003": 0.0,
+          "4231": 0.0,
+          "10007": 0.0,
+          "16001": 0.0
+        },
+        "commands": [
+          [
+            65558,
+            1000,
+            0
+          ],
+          [
+            65557,
+            1,
+            0
+          ]
+        ]
+      },
+      "reverb": {
+        "relative_difference_rms": 0.9773630069205321,
+        "difference_db_relative": -0.19888205987749902,
+        "peak_difference": 1.734144926071167,
+        "gain_difference_db": -14.084692143374342,
+        "old_peak": 1.8436256647109985,
+        "pc_peak": 0.19432269036769867,
+        "tone_gain_difference_db": {
+          "53": -2.8753842891076307,
+          "173": -0.7543861907681917,
+          "601": 0.7730194596450558,
+          "2003": -1.3597615163549683,
+          "4231": 1.8368799977687134,
+          "10007": -1.9272834247200326,
+          "16001": -5.711379933611753
+        },
+        "commands": [
+          [
+            65560,
+            60,
+            0
+          ],
+          [
+            65561,
+            60,
+            0
+          ],
+          [
+            65562,
+            20,
+            0
+          ],
+          [
+            65563,
+            25,
+            0
+          ],
+          [
+            65564,
+            80,
+            0
+          ],
+          [
+            65559,
+            1,
+            0
+          ]
+        ]
+      },
+      "playback_gain": {
+        "relative_difference_rms": 1.123220189687233,
+        "difference_db_relative": 1.0092980244708702,
+        "peak_difference": 0.12562952935695648,
+        "gain_difference_db": 6.539893715012522,
+        "old_peak": 0.11152991652488708,
+        "pc_peak": 0.23715944588184357,
+        "tone_gain_difference_db": {
+          "53": 6.539879045289706,
+          "173": 6.539882134024667,
+          "601": 6.539882240636072,
+          "2003": 6.539889450215288,
+          "4231": 6.539893142111859,
+          "10007": 6.539883771406102,
+          "16001": 6.539887077468883
+        },
+        "commands": [
+          [
+            65566,
+            100,
+            0
+          ],
+          [
+            65567,
+            70,
+            0
+          ],
+          [
+            65568,
+            400,
+            0
+          ],
+          [
+            65565,
+            1,
+            0
+          ]
+        ]
+      },
+      "dynamic_system": {
+        "relative_difference_rms": 0.0,
+        "difference_db_relative": -600.0,
+        "peak_difference": 0.0,
+        "gain_difference_db": 0.0,
+        "old_peak": 0.12370183318853378,
+        "pc_peak": 0.12370183318853378,
+        "tone_gain_difference_db": {
+          "53": 0.0,
+          "173": 0.0,
+          "601": 0.0,
+          "2003": 0.0,
+          "4231": 0.0,
+          "10007": 0.0,
+          "16001": 0.0
+        },
+        "commands": [
+          [
+            65570,
+            100,
+            5600
+          ],
+          [
+            65571,
+            40,
+            80
+          ],
+          [
+            65572,
+            50,
+            50
+          ],
+          [
+            65573,
+            200,
+            0
+          ],
+          [
+            65569,
+            1,
+            0
+          ]
+        ]
+      },
+      "bass_natural": {
+        "relative_difference_rms": 0.19548373760672608,
+        "difference_db_relative": -14.177787318960933,
+        "peak_difference": 0.014011915773153305,
+        "gain_difference_db": 0.1981406003103136,
+        "old_peak": 0.13964617252349854,
+        "pc_peak": 0.1444651037454605,
+        "tone_gain_difference_db": {
+          "53": 0.28824736839914056,
+          "173": 0.6280469561698482,
+          "601": 0.004745727705937328,
+          "2003": 8.306106051370068e-05,
+          "4231": 1.247768275225601e-05,
+          "10007": 1.4261887475027574e-06,
+          "16001": 2.0459757214796728e-07
+        },
+        "commands": [
+          [
+            65575,
+            0,
+            0
+          ],
+          [
+            65576,
+            80,
+            0
+          ],
+          [
+            65577,
+            300,
+            0
+          ],
+          [
+            65574,
+            1,
+            0
+          ]
+        ]
+      },
+      "bass_pure": {
+        "relative_difference_rms": 0.2546978875487546,
+        "difference_db_relative": -11.879493140753114,
+        "peak_difference": 0.01401191670447588,
+        "gain_difference_db": -0.2983621666795189,
+        "old_peak": 0.10347840934991837,
+        "pc_peak": 0.10142073035240173,
+        "tone_gain_difference_db": {
+          "53": -0.23680193783117814,
+          "173": 0.377387127228217,
+          "601": -0.023552663062144995,
+          "2003": 0.00014307137854243076,
+          "4231": 3.287181496310021e-05,
+          "10007": -2.152394104643162e-06,
+          "16001": -1.2060412838149155e-06
+        },
+        "commands": [
+          [
+            65575,
+            1,
+            0
+          ],
+          [
+            65576,
+            80,
+            0
+          ],
+          [
+            65577,
+            300,
+            0
+          ],
+          [
+            65574,
+            1,
+            0
+          ]
+        ]
+      },
+      "bass_subwoofer": {
+        "relative_difference_rms": 1.6178801213802127e-10,
+        "difference_db_relative": -195.82107322124676,
+        "peak_difference": 1.862645149230957e-09,
+        "gain_difference_db": -8.341432585686335e-13,
+        "old_peak": 0.08230677247047424,
+        "pc_peak": 0.08230677247047424,
+        "tone_gain_difference_db": {
+          "53": -6.794651329337119e-12,
+          "173": -1.207627286365521e-11,
+          "601": -4.1432329600560796e-11,
+          "2003": 1.1193913231743343e-11,
+          "4231": 4.0393748918890167e-11,
+          "10007": 4.041496412315424e-11,
+          "16001": 2.866559827071571e-11
+        },
+        "commands": [
+          [
+            65575,
+            2,
+            0
+          ],
+          [
+            65576,
+            80,
+            0
+          ],
+          [
+            65577,
+            300,
+            0
+          ],
+          [
+            65574,
+            1,
+            0
+          ]
+        ]
+      },
+      "clarity_natural": {
+        "relative_difference_rms": 0.0,
+        "difference_db_relative": -600.0,
+        "peak_difference": 0.0,
+        "gain_difference_db": 0.0,
+        "old_peak": 0.23426108062267303,
+        "pc_peak": 0.23426108062267303,
+        "tone_gain_difference_db": {
+          "53": 0.0,
+          "173": 0.0,
+          "601": 0.0,
+          "2003": 0.0,
+          "4231": 0.0,
+          "10007": 0.0,
+          "16001": 0.0
+        },
+        "commands": [
+          [
+            65579,
+            0,
+            0
+          ],
+          [
+            65580,
+            200,
+            0
+          ],
+          [
+            65578,
+            1,
+            0
+          ]
+        ]
+      },
+      "clarity_ozone": {
+        "relative_difference_rms": 3.526702294393851e-08,
+        "difference_db_relative": -149.05262399269444,
+        "peak_difference": 1.4901161193847656e-08,
+        "gain_difference_db": 1.1517270091418706e-07,
+        "old_peak": 0.17557264864444733,
+        "pc_peak": 0.17557264864444733,
+        "tone_gain_difference_db": {
+          "53": -4.675514721672937e-09,
+          "173": 1.0018205183951046e-09,
+          "601": -8.198403539715889e-09,
+          "2003": -9.367824168491755e-10,
+          "4231": 1.2888645455768027e-08,
+          "10007": 1.21652979472426e-07,
+          "16001": 1.75145696620577e-07
+        },
+        "commands": [
+          [
+            65579,
+            1,
+            0
+          ],
+          [
+            65580,
+            200,
+            0
+          ],
+          [
+            65578,
+            1,
+            0
+          ]
+        ]
+      },
+      "clarity_xhifi": {
+        "relative_difference_rms": 0.0,
+        "difference_db_relative": -600.0,
+        "peak_difference": 0.0,
+        "gain_difference_db": 0.0,
+        "old_peak": 0.2942374050617218,
+        "pc_peak": 0.2942374050617218,
+        "tone_gain_difference_db": {
+          "53": 0.0,
+          "173": 0.0,
+          "601": 0.0,
+          "2003": 0.0,
+          "4231": 0.0,
+          "10007": 0.0,
+          "16001": 0.0
+        },
+        "commands": [
+          [
+            65579,
+            2,
+            0
+          ],
+          [
+            65580,
+            200,
+            0
+          ],
+          [
+            65578,
+            1,
+            0
+          ]
+        ]
+      },
+      "cure_0": {
+        "relative_difference_rms": 0.0,
+        "difference_db_relative": -600.0,
+        "peak_difference": 0.0,
+        "gain_difference_db": 0.0,
+        "old_peak": 0.0923367589712143,
+        "pc_peak": 0.0923367589712143,
+        "tone_gain_difference_db": {
+          "53": 0.0,
+          "173": 0.0,
+          "601": 0.0,
+          "2003": 0.0,
+          "4231": 0.0,
+          "10007": 0.0,
+          "16001": 0.0
+        },
+        "commands": [
+          [
+            65582,
+            0,
+            0
+          ],
+          [
+            65581,
+            1,
+            0
+          ]
+        ]
+      },
+      "cure_1": {
+        "relative_difference_rms": 0.0,
+        "difference_db_relative": -600.0,
+        "peak_difference": 0.0,
+        "gain_difference_db": 0.0,
+        "old_peak": 0.08793149888515472,
+        "pc_peak": 0.08793149888515472,
+        "tone_gain_difference_db": {
+          "53": 0.0,
+          "173": 0.0,
+          "601": 0.0,
+          "2003": 0.0,
+          "4231": 0.0,
+          "10007": 0.0,
+          "16001": 0.0
+        },
+        "commands": [
+          [
+            65582,
+            1,
+            0
+          ],
+          [
+            65581,
+            1,
+            0
+          ]
+        ]
+      },
+      "cure_2": {
+        "relative_difference_rms": 0.0,
+        "difference_db_relative": -600.0,
+        "peak_difference": 0.0,
+        "gain_difference_db": 0.0,
+        "old_peak": 0.08433438837528229,
+        "pc_peak": 0.08433438837528229,
+        "tone_gain_difference_db": {
+          "53": 0.0,
+          "173": 0.0,
+          "601": 0.0,
+          "2003": 0.0,
+          "4231": 0.0,
+          "10007": 0.0,
+          "16001": 0.0
+        },
+        "commands": [
+          [
+            65582,
+            2,
+            0
+          ],
+          [
+            65581,
+            1,
+            0
+          ]
+        ]
+      },
+      "tube": {
+        "relative_difference_rms": 0.4559289438138899,
+        "difference_db_relative": -6.822056730663406,
+        "peak_difference": 0.06012292206287384,
+        "gain_difference_db": 1.8700683533124653,
+        "old_peak": 0.10872294008731842,
+        "pc_peak": 0.12675628066062927,
+        "tone_gain_difference_db": {
+          "53": -0.2034814831443687,
+          "173": 0.5419683690372442,
+          "601": 1.262832437360194,
+          "2003": 2.3523721059507854,
+          "4231": 3.7434043511830954,
+          "10007": 4.642812533217054,
+          "16001": 4.185998324360966
+        },
+        "commands": [
+          [
+            65583,
+            1,
+            0
+          ]
+        ]
+      },
+      "analog_0": {
+        "relative_difference_rms": 0.0,
+        "difference_db_relative": -600.0,
+        "peak_difference": 0.0,
+        "gain_difference_db": 0.0,
+        "old_peak": 0.09679941087961197,
+        "pc_peak": 0.09679941087961197,
+        "tone_gain_difference_db": {
+          "53": 0.0,
+          "173": 0.0,
+          "601": 0.0,
+          "2003": 0.0,
+          "4231": 0.0,
+          "10007": 0.0,
+          "16001": 0.0
+        },
+        "commands": [
+          [
+            65585,
+            0,
+            0
+          ],
+          [
+            65584,
+            1,
+            0
+          ]
+        ]
+      },
+      "analog_1": {
+        "relative_difference_rms": 0.0,
+        "difference_db_relative": -600.0,
+        "peak_difference": 0.0,
+        "gain_difference_db": 0.0,
+        "old_peak": 0.09668995440006256,
+        "pc_peak": 0.09668995440006256,
+        "tone_gain_difference_db": {
+          "53": 0.0,
+          "173": 0.0,
+          "601": 0.0,
+          "2003": 0.0,
+          "4231": 0.0,
+          "10007": 0.0,
+          "16001": 0.0
+        },
+        "commands": [
+          [
+            65585,
+            1,
+            0
+          ],
+          [
+            65584,
+            1,
+            0
+          ]
+        ]
+      },
+      "analog_2": {
+        "relative_difference_rms": 0.0,
+        "difference_db_relative": -600.0,
+        "peak_difference": 0.0,
+        "gain_difference_db": 0.0,
+        "old_peak": 0.09442252665758133,
+        "pc_peak": 0.09442252665758133,
+        "tone_gain_difference_db": {
+          "53": 0.0,
+          "173": 0.0,
+          "601": 0.0,
+          "2003": 0.0,
+          "4231": 0.0,
+          "10007": 0.0,
+          "16001": 0.0
+        },
+        "commands": [
+          [
+            65585,
+            2,
+            0
+          ],
+          [
+            65584,
+            1,
+            0
+          ]
+        ]
+      },
+      "speaker": {
+        "relative_difference_rms": 0.0,
+        "difference_db_relative": -600.0,
+        "peak_difference": 0.0,
+        "gain_difference_db": 0.0,
+        "old_peak": 0.06610796600580215,
+        "pc_peak": 0.06610796600580215,
+        "tone_gain_difference_db": {
+          "53": 0.0,
+          "173": 0.0,
+          "601": 0.0,
+          "2003": 0.0,
+          "4231": 0.0,
+          "10007": 0.0,
+          "16001": 0.0
+        },
+        "commands": [
+          [
+            65603,
+            1,
+            0
+          ]
+        ]
+      },
+      "spectrum": {
+        "relative_difference_rms": 0.0,
+        "difference_db_relative": -600.0,
+        "peak_difference": 0.0,
+        "gain_difference_db": 0.0,
+        "old_peak": 0.11710849404335022,
+        "pc_peak": 0.11710849404335022,
+        "tone_gain_difference_db": {
+          "53": 0.0,
+          "173": 0.0,
+          "601": 0.0,
+          "2003": 0.0,
+          "4231": 0.0,
+          "10007": 0.0,
+          "16001": 0.0
+        },
+        "commands": [
+          [
+            65549,
+            7600,
+            0
+          ],
+          [
+            65550,
+            200,
+            0
+          ],
+          [
+            65548,
+            1,
+            0
+          ]
+        ]
+      },
+      "ddc": {
+        "relative_difference_rms": 0.0,
+        "difference_db_relative": -600.0,
+        "peak_difference": 0.0,
+        "gain_difference_db": 0.0,
+        "old_peak": 0.0984966978430748,
+        "pc_peak": 0.0984966978430748,
+        "tone_gain_difference_db": {
+          "53": 0.0,
+          "173": 0.0,
+          "601": 0.0,
+          "2003": 0.0,
+          "4231": 0.0,
+          "10007": 0.0,
+          "16001": 0.0
+        },
+        "commands": [
+          [
+            65546,
+            1,
+            0
+          ]
+        ]
+      }
+    },
+    "48000": {
+      "dry": {
+        "relative_difference_rms": 0.0,
+        "difference_db_relative": -600.0,
+        "peak_difference": 0.0,
+        "gain_difference_db": 0.0,
+        "old_peak": 0.11299356073141098,
+        "pc_peak": 0.11299356073141098,
+        "tone_gain_difference_db": {
+          "53": 0.0,
+          "173": 0.0,
+          "601": 0.0,
+          "2003": 0.0,
+          "4231": 0.0,
+          "10007": 0.0,
+          "16001": 0.0
+        },
+        "commands": []
+      },
+      "equalizer": {
+        "relative_difference_rms": 0.0,
+        "difference_db_relative": -600.0,
+        "peak_difference": 0.0,
+        "gain_difference_db": 0.0,
+        "old_peak": 0.10220411419868469,
+        "pc_peak": 0.10220411419868469,
+        "tone_gain_difference_db": {
+          "53": 0.0,
+          "173": 0.0,
+          "601": 0.0,
+          "2003": 0.0,
+          "4231": 0.0,
+          "10007": 0.0,
+          "16001": 0.0
+        },
+        "commands": [
+          [
+            65552,
+            2,
+            600
+          ],
+          [
+            65552,
+            7,
+            -300
+          ],
+          [
+            65551,
+            1,
+            0
+          ]
+        ]
+      },
+      "field_surround": {
+        "relative_difference_rms": 0.3128067623447216,
+        "difference_db_relative": -10.094477336204644,
+        "peak_difference": 0.051562681794166565,
+        "gain_difference_db": -0.8502955600941218,
+        "old_peak": 0.1628042459487915,
+        "pc_peak": 0.15595319867134094,
+        "tone_gain_difference_db": {
+          "53": -1.3938932046806374,
+          "173": -5.217950071612693,
+          "601": -0.3013523198812824,
+          "2003": -0.0936655657603412,
+          "4231": -3.11130885054445,
+          "10007": 0.9555020670158405,
+          "16001": 4.008417254898601
+        },
+        "commands": [
+          [
+            65554,
+            0,
+            0
+          ],
+          [
+            65555,
+            150,
+            0
+          ],
+          [
+            65556,
+            350,
+            0
+          ],
+          [
+            65553,
+            1,
+            0
+          ]
+        ]
+      },
+      "diff_surround": {
+        "relative_difference_rms": 0.0,
+        "difference_db_relative": -600.0,
+        "peak_difference": 0.0,
+        "gain_difference_db": 0.0,
+        "old_peak": 0.11299356073141098,
+        "pc_peak": 0.11299356073141098,
+        "tone_gain_difference_db": {
+          "53": 0.0,
+          "173": 0.0,
+          "601": 0.0,
+          "2003": 0.0,
+          "4231": 0.0,
+          "10007": 0.0,
+          "16001": 0.0
+        },
+        "commands": [
+          [
+            65558,
+            1000,
+            0
+          ],
+          [
+            65557,
+            1,
+            0
+          ]
+        ]
+      },
+      "reverb": {
+        "relative_difference_rms": 0.9998548008948145,
+        "difference_db_relative": -0.0012612749734020098,
+        "peak_difference": 20.634449005126953,
+        "gain_difference_db": -35.7434901270421,
+        "old_peak": 20.61886215209961,
+        "pc_peak": 0.19877788424491882,
+        "tone_gain_difference_db": {
+          "53": -0.047248895399205695,
+          "173": -2.9838930921057685,
+          "601": 2.3152273662987852,
+          "2003": -2.773477129856973,
+          "4231": -0.6908769688295125,
+          "10007": -1.0473743234941675,
+          "16001": 2.2114795583650144
+        },
+        "commands": [
+          [
+            65560,
+            60,
+            0
+          ],
+          [
+            65561,
+            60,
+            0
+          ],
+          [
+            65562,
+            20,
+            0
+          ],
+          [
+            65563,
+            25,
+            0
+          ],
+          [
+            65564,
+            80,
+            0
+          ],
+          [
+            65559,
+            1,
+            0
+          ]
+        ]
+      },
+      "playback_gain": {
+        "relative_difference_rms": 1.1171561312466738,
+        "difference_db_relative": 0.9622774676906799,
+        "peak_difference": 0.12622040510177612,
+        "gain_difference_db": 6.515054014144375,
+        "old_peak": 0.11299356073141098,
+        "pc_peak": 0.2392139583826065,
+        "tone_gain_difference_db": {
+          "53": 6.515042078236139,
+          "173": 6.51504828905985,
+          "601": 6.515049694702457,
+          "2003": 6.515052094775756,
+          "4231": 6.515044536557241,
+          "10007": 6.515051352574261,
+          "16001": 6.515052454538952
+        },
+        "commands": [
+          [
+            65566,
+            100,
+            0
+          ],
+          [
+            65567,
+            70,
+            0
+          ],
+          [
+            65568,
+            400,
+            0
+          ],
+          [
+            65565,
+            1,
+            0
+          ]
+        ]
+      },
+      "dynamic_system": {
+        "relative_difference_rms": 0.0,
+        "difference_db_relative": -600.0,
+        "peak_difference": 0.0,
+        "gain_difference_db": 0.0,
+        "old_peak": 0.12398277968168259,
+        "pc_peak": 0.12398277968168259,
+        "tone_gain_difference_db": {
+          "53": 0.0,
+          "173": 0.0,
+          "601": 0.0,
+          "2003": 0.0,
+          "4231": 0.0,
+          "10007": 0.0,
+          "16001": 0.0
+        },
+        "commands": [
+          [
+            65570,
+            100,
+            5600
+          ],
+          [
+            65571,
+            40,
+            80
+          ],
+          [
+            65572,
+            50,
+            50
+          ],
+          [
+            65573,
+            200,
+            0
+          ],
+          [
+            65569,
+            1,
+            0
+          ]
+        ]
+      },
+      "bass_natural": {
+        "relative_difference_rms": 0.1954281066476884,
+        "difference_db_relative": -14.18025950997292,
+        "peak_difference": 0.01399773545563221,
+        "gain_difference_db": 0.1983828511633479,
+        "old_peak": 0.14098775386810303,
+        "pc_peak": 0.14100366830825806,
+        "tone_gain_difference_db": {
+          "53": 0.2888370007570865,
+          "173": 0.6279698524379398,
+          "601": 0.004688529122675341,
+          "2003": 7.570554717414664e-05,
+          "4231": 1.0168306486608531e-05,
+          "10007": 8.286423480148399e-07,
+          "16001": 7.887986520781556e-09
+        },
+        "commands": [
+          [
+            65575,
+            0,
+            0
+          ],
+          [
+            65576,
+            80,
+            0
+          ],
+          [
+            65577,
+            300,
+            0
+          ],
+          [
+            65574,
+            1,
+            0
+          ]
+        ]
+      },
+      "bass_pure": {
+        "relative_difference_rms": 0.25438774720030405,
+        "difference_db_relative": -11.890076213573636,
+        "peak_difference": 0.01399773545563221,
+        "gain_difference_db": -0.29620767514213686,
+        "old_peak": 0.10904689133167267,
+        "pc_peak": 0.10232798755168915,
+        "tone_gain_difference_db": {
+          "53": -0.3118309315600238,
+          "173": 0.46859242988156297,
+          "601": 0.025230026419062263,
+          "2003": 0.00046463725882960456,
+          "4231": -1.502238459411356e-05,
+          "10007": 2.6292319516260545e-06,
+          "16001": 2.775410329915924e-06
+        },
+        "commands": [
+          [
+            65575,
+            1,
+            0
+          ],
+          [
+            65576,
+            80,
+            0
+          ],
+          [
+            65577,
+            300,
+            0
+          ],
+          [
+            65574,
+            1,
+            0
+          ]
+        ]
+      },
+      "bass_subwoofer": {
+        "relative_difference_rms": 1.0970002906511452e-10,
+        "difference_db_relative": -199.19586514717173,
+        "peak_difference": 9.313225746154785e-10,
+        "gain_difference_db": -4.705918036780169e-13,
+        "old_peak": 0.08316095173358917,
+        "pc_peak": 0.08316095173358917,
+        "tone_gain_difference_db": {
+          "53": 0.0,
+          "173": 0.0,
+          "601": 0.0,
+          "2003": 0.0,
+          "4231": 0.0,
+          "10007": 0.0,
+          "16001": 0.0
+        },
+        "commands": [
+          [
+            65575,
+            2,
+            0
+          ],
+          [
+            65576,
+            80,
+            0
+          ],
+          [
+            65577,
+            300,
+            0
+          ],
+          [
+            65574,
+            1,
+            0
+          ]
+        ]
+      },
+      "clarity_natural": {
+        "relative_difference_rms": 0.0,
+        "difference_db_relative": -600.0,
+        "peak_difference": 0.0,
+        "gain_difference_db": 0.0,
+        "old_peak": 0.22308409214019775,
+        "pc_peak": 0.22308409214019775,
+        "tone_gain_difference_db": {
+          "53": 0.0,
+          "173": 0.0,
+          "601": 0.0,
+          "2003": 0.0,
+          "4231": 0.0,
+          "10007": 0.0,
+          "16001": 0.0
+        },
+        "commands": [
+          [
+            65579,
+            0,
+            0
+          ],
+          [
+            65580,
+            200,
+            0
+          ],
+          [
+            65578,
+            1,
+            0
+          ]
+        ]
+      },
+      "clarity_ozone": {
+        "relative_difference_rms": 3.5403600238935734e-08,
+        "difference_db_relative": -149.01905143496438,
+        "peak_difference": 1.4901161193847656e-08,
+        "gain_difference_db": 1.154178175236918e-07,
+        "old_peak": 0.17728473246097565,
+        "pc_peak": 0.17728473246097565,
+        "tone_gain_difference_db": {
+          "53": -1.0011840623307238e-10,
+          "173": -1.1569615213490255e-09,
+          "601": 4.624152709660095e-09,
+          "2003": 2.211827764723397e-09,
+          "4231": 1.7536489755717008e-08,
+          "10007": 1.2098198307267575e-07,
+          "16001": 1.7541238716203537e-07
+        },
+        "commands": [
+          [
+            65579,
+            1,
+            0
+          ],
+          [
+            65580,
+            200,
+            0
+          ],
+          [
+            65578,
+            1,
+            0
+          ]
+        ]
+      },
+      "clarity_xhifi": {
+        "relative_difference_rms": 0.0,
+        "difference_db_relative": -600.0,
+        "peak_difference": 0.0,
+        "gain_difference_db": 0.0,
+        "old_peak": 0.30031198263168335,
+        "pc_peak": 0.30031198263168335,
+        "tone_gain_difference_db": {
+          "53": 0.0,
+          "173": 0.0,
+          "601": 0.0,
+          "2003": 0.0,
+          "4231": 0.0,
+          "10007": 0.0,
+          "16001": 0.0
+        },
+        "commands": [
+          [
+            65579,
+            2,
+            0
+          ],
+          [
+            65580,
+            200,
+            0
+          ],
+          [
+            65578,
+            1,
+            0
+          ]
+        ]
+      },
+      "cure_0": {
+        "relative_difference_rms": 0.0,
+        "difference_db_relative": -600.0,
+        "peak_difference": 0.0,
+        "gain_difference_db": 0.0,
+        "old_peak": 0.09177158772945404,
+        "pc_peak": 0.09177158772945404,
+        "tone_gain_difference_db": {
+          "53": 0.0,
+          "173": 0.0,
+          "601": 0.0,
+          "2003": 0.0,
+          "4231": 0.0,
+          "10007": 0.0,
+          "16001": 0.0
+        },
+        "commands": [
+          [
+            65582,
+            0,
+            0
+          ],
+          [
+            65581,
+            1,
+            0
+          ]
+        ]
+      },
+      "cure_1": {
+        "relative_difference_rms": 0.0,
+        "difference_db_relative": -600.0,
+        "peak_difference": 0.0,
+        "gain_difference_db": 0.0,
+        "old_peak": 0.0884571373462677,
+        "pc_peak": 0.0884571373462677,
+        "tone_gain_difference_db": {
+          "53": 0.0,
+          "173": 0.0,
+          "601": 0.0,
+          "2003": 0.0,
+          "4231": 0.0,
+          "10007": 0.0,
+          "16001": 0.0
+        },
+        "commands": [
+          [
+            65582,
+            1,
+            0
+          ],
+          [
+            65581,
+            1,
+            0
+          ]
+        ]
+      },
+      "cure_2": {
+        "relative_difference_rms": 0.0,
+        "difference_db_relative": -600.0,
+        "peak_difference": 0.0,
+        "gain_difference_db": 0.0,
+        "old_peak": 0.08565579354763031,
+        "pc_peak": 0.08565579354763031,
+        "tone_gain_difference_db": {
+          "53": 0.0,
+          "173": 0.0,
+          "601": 0.0,
+          "2003": 0.0,
+          "4231": 0.0,
+          "10007": 0.0,
+          "16001": 0.0
+        },
+        "commands": [
+          [
+            65582,
+            2,
+            0
+          ],
+          [
+            65581,
+            1,
+            0
+          ]
+        ]
+      },
+      "tube": {
+        "relative_difference_rms": 0.4516567335770941,
+        "difference_db_relative": -6.9038302130670886,
+        "peak_difference": 0.06014825776219368,
+        "gain_difference_db": 1.8598970068849627,
+        "old_peak": 0.11299356073141098,
+        "pc_peak": 0.12819232046604156,
+        "tone_gain_difference_db": {
+          "53": -0.20470077641787335,
+          "173": 0.5361215714781881,
+          "601": 1.23951717863789,
+          "2003": 2.2177872640039245,
+          "4231": 3.594908756376492,
+          "10007": 4.622647589433494,
+          "16001": 4.430978690816301
+        },
+        "commands": [
+          [
+            65583,
+            1,
+            0
+          ]
+        ]
+      },
+      "analog_0": {
+        "relative_difference_rms": 0.0,
+        "difference_db_relative": -600.0,
+        "peak_difference": 0.0,
+        "gain_difference_db": 0.0,
+        "old_peak": 0.095155730843544,
+        "pc_peak": 0.095155730843544,
+        "tone_gain_difference_db": {
+          "53": 0.0,
+          "173": 0.0,
+          "601": 0.0,
+          "2003": 0.0,
+          "4231": 0.0,
+          "10007": 0.0,
+          "16001": 0.0
+        },
+        "commands": [
+          [
+            65585,
+            0,
+            0
+          ],
+          [
+            65584,
+            1,
+            0
+          ]
+        ]
+      },
+      "analog_1": {
+        "relative_difference_rms": 0.0,
+        "difference_db_relative": -600.0,
+        "peak_difference": 0.0,
+        "gain_difference_db": 0.0,
+        "old_peak": 0.09476500004529953,
+        "pc_peak": 0.09476500004529953,
+        "tone_gain_difference_db": {
+          "53": 0.0,
+          "173": 0.0,
+          "601": 0.0,
+          "2003": 0.0,
+          "4231": 0.0,
+          "10007": 0.0,
+          "16001": 0.0
+        },
+        "commands": [
+          [
+            65585,
+            1,
+            0
+          ],
+          [
+            65584,
+            1,
+            0
+          ]
+        ]
+      },
+      "analog_2": {
+        "relative_difference_rms": 0.0,
+        "difference_db_relative": -600.0,
+        "peak_difference": 0.0,
+        "gain_difference_db": 0.0,
+        "old_peak": 0.09271430969238281,
+        "pc_peak": 0.09271430969238281,
+        "tone_gain_difference_db": {
+          "53": 0.0,
+          "173": 0.0,
+          "601": 0.0,
+          "2003": 0.0,
+          "4231": 0.0,
+          "10007": 0.0,
+          "16001": 0.0
+        },
+        "commands": [
+          [
+            65585,
+            2,
+            0
+          ],
+          [
+            65584,
+            1,
+            0
+          ]
+        ]
+      },
+      "speaker": {
+        "relative_difference_rms": 0.0,
+        "difference_db_relative": -600.0,
+        "peak_difference": 0.0,
+        "gain_difference_db": 0.0,
+        "old_peak": 0.06476869434118271,
+        "pc_peak": 0.06476869434118271,
+        "tone_gain_difference_db": {
+          "53": 0.0,
+          "173": 0.0,
+          "601": 0.0,
+          "2003": 0.0,
+          "4231": 0.0,
+          "10007": 0.0,
+          "16001": 0.0
+        },
+        "commands": [
+          [
+            65603,
+            1,
+            0
+          ]
+        ]
+      },
+      "spectrum": {
+        "relative_difference_rms": 0.0,
+        "difference_db_relative": -600.0,
+        "peak_difference": 0.0,
+        "gain_difference_db": 0.0,
+        "old_peak": 0.11890491098165512,
+        "pc_peak": 0.11890491098165512,
+        "tone_gain_difference_db": {
+          "53": 0.0,
+          "173": 0.0,
+          "601": 0.0,
+          "2003": 0.0,
+          "4231": 0.0,
+          "10007": 0.0,
+          "16001": 0.0
+        },
+        "commands": [
+          [
+            65549,
+            7600,
+            0
+          ],
+          [
+            65550,
+            200,
+            0
+          ],
+          [
+            65548,
+            1,
+            0
+          ]
+        ]
+      },
+      "ddc": {
+        "relative_difference_rms": 0.0,
+        "difference_db_relative": -600.0,
+        "peak_difference": 0.0,
+        "gain_difference_db": 0.0,
+        "old_peak": 0.10242505371570587,
+        "pc_peak": 0.10242505371570587,
+        "tone_gain_difference_db": {
+          "53": 0.0,
+          "173": 0.0,
+          "601": 0.0,
+          "2003": 0.0,
+          "4231": 0.0,
+          "10007": 0.0,
+          "16001": 0.0
+        },
+        "commands": [
+          [
+            65546,
+            1,
+            0
+          ]
+        ]
+      }
+    }
+  },
+  "full_chain": {
+    "44100/dry": {
+      "original_delay": 255,
+      "modern_delay": 256,
+      "difference_db_relative": -53.97198484662919,
+      "gain_difference_db": 0.0173692378085812,
+      "old_peak": 0.11130711436271667,
+      "pc_peak": 0.11152991652488708
+    },
+    "44100/limiter": {
+      "original_delay": 255,
+      "modern_delay": 256,
+      "difference_db_relative": -26.415848085730378,
+      "gain_difference_db": 0.27070408461780504,
+      "old_peak": 0.04990013316273689,
+      "pc_peak": 0.05000000447034836
+    },
+    "44100/combined": {
+      "original_delay": 255,
+      "modern_delay": 256,
+      "difference_db_relative": 0.6482967906496482,
+      "gain_difference_db": -1.621088952961777,
+      "old_peak": 0.9980015158653259,
+      "pc_peak": 0.5693271160125732
+    },
+    "48000/dry": {
+      "original_delay": 255,
+      "modern_delay": 256,
+      "difference_db_relative": -53.971985474119165,
+      "gain_difference_db": 0.0173692365550327,
+      "old_peak": 0.11276783049106598,
+      "pc_peak": 0.11299356073141098
+    },
+    "48000/limiter": {
+      "original_delay": 255,
+      "modern_delay": 256,
+      "difference_db_relative": -26.62492442274004,
+      "gain_difference_db": 0.27235310534204105,
+      "old_peak": 0.049900129437446594,
+      "pc_peak": 0.05000000447034836
+    },
+    "48000/combined": {
+      "original_delay": 255,
+      "modern_delay": 256,
+      "difference_db_relative": 0.4312543524379969,
+      "gain_difference_db": -7.126754225968684,
+      "old_peak": 0.9980015754699707,
+      "pc_peak": 0.5604400634765625
+    }
+  },
+  "source_fingerprints": {
+    "original": {
+      "sha256_paths_and_contents": "bae69aab444126e77a2f0b9cf09eeb3184ce9fd21b73774e5efd221136cd08bf",
+      "source_file_count": 102
+    },
+    "modern": {
+      "sha256_paths_and_contents": "ba9cad48512a9444edf07977ba0e16321ed13b66ab8b12e1f9edcf0ffc7f464b",
+      "source_file_count": 114
+    }
+  },
+  "attached_binary_static_evidence": {
+    "libv4a_re_arm64-v8a.so": {
+      "sha256": "702b8aa7cec60cc65b940094ad7bdc210d3ba3a590b530d110cbe1d89ba348d3",
+      "symbols": [
+        "000000000006620c 0000000000000008 T PConvSingle::ProcessKernel(float const*, float, int, int)",
+        "0000000000066190 0000000000000008 T PConvSingle::ProcessKernel(float const*, int, int)",
+        "000000000005bd9c 00000000000000d8 T PlaybackGain::Process(float*, unsigned int)",
+        "000000000005b448 0000000000000004 T FETCompressor::Process(float*, unsigned int)",
+        "000000000005d19c 0000000000000058 T TubeSimulator::TubeProcess(float*, unsigned int)",
+        "0000000000067274 000000000000005c T TimeConstDelay::ProcessSample(float)"
+      ]
+    },
+    "libv4a_re_armeabi-v7a.so": {
+      "sha256": "a850ba09e648a8d4eb712fa0646fa77a21661cecdcd3fbe8a2d5c4158f57d5e3",
+      "symbols": [
+        "0003fbe8 00000004 T PConvSingle::ProcessKernel(float const*, float, int, int)",
+        "0003fb88 00000004 T PConvSingle::ProcessKernel(float const*, int, int)",
+        "00036a94 000000e6 T PlaybackGain::Process(float*, unsigned int)",
+        "00036054 00000002 T FETCompressor::Process(float*, unsigned int)",
+        "00037f80 00000058 T TubeSimulator::TubeProcess(float*, unsigned int)",
+        "00040c08 0000003e T TimeConstDelay::ProcessSample(float)"
+      ]
+    },
+    "libv4a_re_x86.so": {
+      "sha256": "f10fdb88dfca0ce5590c3c29109cce8dcb8894144bb086e49bd5b118b0b1f01d",
+      "symbols": [
+        "0006c860 0000000c T PConvSingle::ProcessKernel(float const*, float, int, int)",
+        "0006c7a0 0000000c T PConvSingle::ProcessKernel(float const*, int, int)",
+        "0005cd40 0000014e T PlaybackGain::Process(float*, unsigned int)",
+        "0005bf00 0000000a T FETCompressor::Process(float*, unsigned int)",
+        "0005f040 0000007b T TubeSimulator::TubeProcess(float*, unsigned int)",
+        "0006e2e0 00000093 T TimeConstDelay::ProcessSample(float)"
+      ]
+    },
+    "libv4a_re_x86_64.so": {
+      "sha256": "395029cb91325e7420a9d9968eb46780632752b19901406c38bc14a4fbc075c2",
+      "symbols": [
+        "000000000006e900 0000000000000003 T PConvSingle::ProcessKernel(float const*, float, int, int)",
+        "000000000006e8a0 0000000000000003 T PConvSingle::ProcessKernel(float const*, int, int)",
+        "0000000000061260 00000000000001bf T PlaybackGain::Process(float*, unsigned int)",
+        "0000000000060630 0000000000000001 T FETCompressor::Process(float*, unsigned int)",
+        "00000000000631f0 0000000000000060 T TubeSimulator::TubeProcess(float*, unsigned int)",
+        "0000000000070200 000000000000004e T TimeConstDelay::ProcessSample(float)"
+      ]
+    }
+  },
+  "binary_evidence_limit": "Static inspection of supplied x86_64 DLL-equivalent ELF confirms FET Process is a single RET instruction, PConvSingle ProcessKernel returns0, PlaybackGain Process writes analyzer state but not input audio, Tube alternating-frame accumulator and TimeConstDelay modff bug. ARM64 FET symbol4bytes and PConv kernels8bytes match no-op instruction stubs. This does not establish whole-core equivalence or an Android listening A/B.",
+  "chain_order": {
+    "original": [
+      "Convolver",
+      "VHE",
+      "DDC",
+      "SpectrumExtend",
+      "EQ",
+      "FieldSurround",
+      "DiffSurround",
+      "Reverb",
+      "SpeakerCorrection",
+      "PlaybackGain",
+      "FET",
+      "DynamicSystem",
+      "Bass",
+      "Clarity",
+      "Cure",
+      "Tube",
+      "AnalogX",
+      "Gain/Pan",
+      "Limiter"
+    ],
+    "modern_existing_groups": [
+      "Convolver",
+      "VHE",
+      "DDC",
+      "SpectrumExtend",
+      "EQ",
+      "FieldSurround",
+      "DiffSurround",
+      "PlaybackGain",
+      "FET",
+      "DynamicSystem",
+      "Tube",
+      "Bass",
+      "Clarity",
+      "Cure",
+      "AnalogX",
+      "Reverb",
+      "SpeakerCorrection",
+      "Gain/Pan",
+      "Limiter"
+    ],
+    "additional_modern_groups_disabled": [
+      "DynamicEQ",
+      "StereoImager",
+      "MultibandCompressor",
+      "PsychoacousticBass",
+      "LUFS"
+    ]
+  },
+  "default_mapping": {
+    "all_feature_switches_and_master": false,
+    "output_gain": 1,
+    "pan": 0,
+    "limiter_threshold": 1,
+    "playback_gain": {
+      "native_ratio": 0.5,
+      "max_gain": 4,
+      "volume": 0.8
+    },
+    "spectrum": {
+      "frequency": 7600,
+      "exciter": 0.56
+    },
+    "equalizer_band_levels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "convolver_cross_channel": 0,
+    "field_surround": {
+      "depth": 200,
+      "mid_image": 1.5,
+      "widening": 0,
+      "note": "APK sends65556 for combined65554;65556 slider;65554 command never sent."
+    },
+    "diff_surround_delay_ms": 5,
+    "headphone_surround_quality": 0,
+    "reverb": {
+      "room_size": 0,
+      "width": 0,
+      "damp": 0,
+      "wet": 0,
+      "dry": 0.5
+    },
+    "dynamic": {
+      "x": [
+        100,
+        5600
+      ],
+      "y": [
+        40,
+        80
+      ],
+      "side_gains": [
+        0.5,
+        0.5
+      ],
+      "strength": 1
+    },
+    "bass": {
+      "mode": 0,
+      "frequency": 70,
+      "gain": 0.5
+    },
+    "clarity": {
+      "mode": 0,
+      "gain": 0.5
+    },
+    "cure_preset": 0,
+    "analog_model": 0,
+    "FET_normalized": {
+      "threshold": 1,
+      "ratio": 1,
+      "knee": 0,
+      "knee_auto": true,
+      "knee_multi": 0,
+      "gain": 0,
+      "gain_auto": true,
+      "attack": 0.2,
+      "attack_auto": true,
+      "max_attack": 0.8,
+      "release": 0.5,
+      "release_auto": true,
+      "max_release": 1,
+      "crest": 1,
+      "adapt": 0.5,
+      "no_clip": true
+    },
+    "mapping_assessment": "UI values/legacy commands reproduced from APK; equivalent controls do not ensure equivalent sound where algorithms differ. FET transforms belong inside pinned source; values remain normalized."
+  },
+  "effect_assessment": {
+    "EQ": {
+      "principle": "Same parallel minimum-phase IIR bands and coefficients",
+      "finding": "Sample-exact in measured fresh-state single-effect fixtures at44.1/48k."
+    },
+    "DDC": {
+      "principle": "Same cascaded biquad equation b0*x+b1*x1+b2*x2+a1*y1+a2*y2",
+      "finding": "Sample-exact fixture; modern Reset clears all state rather than original onlyx1 so reset/re-enable transient may differ."
+    },
+    "SpectrumExtend": {
+      "principle": "Same filters/harmonic reconstruction",
+      "finding": "Sample-exact fixture."
+    },
+    "DiffSurround": {
+      "principle": "Same per-channel delay",
+      "finding": "Sample-exact fixture."
+    },
+    "DynamicSystem": {
+      "principle": "Same DynamicBass/filtering/mix",
+      "finding": "Sample-exact fixture."
+    },
+    "Clarity": {
+      "principle": "Same NoiseSharpening/HighShelf/HiFi modes",
+      "finding": "Natural/XHiFi exact; Ozone relativedifference~3.5e-8."
+    },
+    "Cure": {
+      "principle": "Same crossfeed filter and3presets",
+      "finding": "Sample-exact all3 fixture presets."
+    },
+    "AnalogX": {
+      "principle": "Same filters,harmonics,andmodels",
+      "finding": "Sample-exact all3 fixture modes afterstartup; both block-round~250msmute."
+    },
+    "SpeakerCorrection": {
+      "principle": "Same filters",
+      "finding": "Sample-exact fixture."
+    },
+    "FieldSurround": {
+      "principle": "Same intended Stereo3D+Depth feedback/delay concept",
+      "finding": "Actual delay differs: original modff code keepsoffset0 and overwritessampleCount; modern implements true20ms/14msringdelays. Sampledifference31.3%RMS at48k fixture, not a global similarity score."
+    },
+    "Reverb": {
+      "principle": "Same Freeverb-like8comb+4allpass structure andcoefficients",
+      "finding": "Original ProcessReplace increments interleaved indexby1, overlappingL/Rwrites andprocessingonlyfirsthalf. Modern incrementsby2, changing spatial/mix response. Originalreference peaks>1, so this isolatedcomparison is informative aboutbug, not an unclipped calibratedgain comparison."
+    },
+    "PlaybackGain": {
+      "principle": "Same intended2200Hz analysis andgain formula",
+      "finding": "Original outputloop empty; attachedx86_64 Process doesnotwrite audio. Modern addsgainapplication,clamp,logfloor,.4swarmup."
+    },
+    "Bass": {
+      "principle": "Same lowpass/polyphase/subwoofer backbone",
+      "finding": "Modern Natural/Pure add18HzDCblock,30msgainsmoothing,soft saturation,fadebassonly insteadwholeaudio. Subwoofer steadyfixture within1e-9 relative, startup stilldifferent."
+    },
+    "Tube": {
+      "principle": "Different implementation",
+      "finding": "Original accumulatedhalfaverage onalternateframes; modern120Hzhighpass+polynomialharmonics+lowpassaddedtodry. Fixture~45%relativeRMSdifference48k."
+    },
+    "Limiter": {
+      "principle": "Both peak limiting withlookahead",
+      "finding": "Original255-frameeffective indexing,~0.998steadygainunderthreshold; modern256lookaheadand80msreleaseenvelope. Dry steadygainchange0.0174dB, clipping dynamics differ."
+    },
+    "Convolver_VHE_FET": {
+      "principle": "Intended convolution/virtualization/compression preserved but implementationcompleted",
+      "finding": "Original PConv kernelmethods return0 and FET Process returnsimmediately; modern functionalFFTconvolution,VHEkernels,FETprocessing. Cannotbe soniccopyofnon-operationaloriginalpaths."
+    }
+  },
+  "limitations": [
+    "No Android-device capture or subjective blind listening test.",
+    "Measured agreement applies to listed settings/rates/startup conditions and compiler math, not every preset.",
+    "Original source branch is not pinned by a commit; source-content fingerprint recorded.",
+    "The supplied ELF was not executed; only its symbols/instructions statically inspected.",
+    "Convolver/VHE/FET completed modern engine cannot reproduce output of original stubs while being functional.",
+    "Cross-rate IRS resampling preservesDCgain but changescoefficients; use same-rateIR forclosestresponse.",
+    "System APO mayrunresampling/upmixing/othereffects independently ofDSPcontroller."
+  ],
+  "conclusion_ru": "Текущая Windows-версия использует то же семейство ViPER DSP и сохраняет многие исходные алгоритмы, но не является звуковым клоном 1:1. Для максимального совпадения со старым модулем нужен отдельный режим исходного ядра/порядка обработки, включая старый limiter и старые особенности; функциональные исправления надо включать отдельно. Полный systemwide режим на готовом современном APO использует современное ядро.",
+  "reference_dll_sha256": "f3eb4ffa7ee1d4f40cbe72b7d2c9183380abf7da0446627a2e424761feb1e2c1"
+}

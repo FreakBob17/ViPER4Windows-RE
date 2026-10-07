@@ -1,0 +1,117 @@
+{
+  "Tests": [
+    {
+      "Passed": true,
+      "SampleRate": 44100,
+      "AudioPlayed": false,
+      "GeneratedOnlyInMemory": true,
+      "Measurements": {
+        "Rms": 0.009275861519781655,
+        "Peak": 0.014999999664723873,
+        "SignalDetected": true,
+        "EstimatedStartOffsetMilliseconds": 0,
+        "Tones": [
+          {
+            "FrequencyHz": 63,
+            "Amplitude": 0.015022475533788056,
+            "PeakDbfs": -36.46516989247453,
+            "Rms": 0.010614486084162881,
+            "TonePurity": 1.0007544629032583
+          },
+          {
+            "FrequencyHz": 125,
+            "Amplitude": 0.014999999986636084,
+            "PeakDbfs": -36.47817482662488,
+            "Rms": 0.010606601710667839,
+            "TonePurity": 0.9999999997813303
+          },
+          {
+            "FrequencyHz": 250,
+            "Amplitude": 0.014999999998935655,
+            "PeakDbfs": -36.47817481950269,
+            "Rms": 0.010606601725867687,
+            "TonePurity": 0.9999999991682463
+          },
+          {
+            "FrequencyHz": 1000,
+            "Amplitude": 0.014999999998935809,
+            "PeakDbfs": -36.478174819502605,
+            "Rms": 0.010606601725867687,
+            "TonePurity": 0.9999999991682564
+          },
+          {
+            "FrequencyHz": 4000,
+            "Amplitude": 0.014999999998935936,
+            "PeakDbfs": -36.478174819502534,
+            "Rms": 0.010606601725867687,
+            "TonePurity": 0.999999999168265
+          },
+          {
+            "FrequencyHz": 8000,
+            "Amplitude": 0.014999999998935995,
+            "PeakDbfs": -36.4781748195025,
+            "Rms": 0.010606601725867687,
+            "TonePurity": 0.9999999991682689
+          }
+        ]
+      }
+    },
+    {
+      "Passed": true,
+      "SampleRate": 48000,
+      "AudioPlayed": false,
+      "GeneratedOnlyInMemory": true,
+      "Measurements": {
+        "Rms": 0.009275861475176984,
+        "Peak": 0.014999999664723873,
+        "SignalDetected": true,
+        "EstimatedStartOffsetMilliseconds": 0,
+        "Tones": [
+          {
+            "FrequencyHz": 63,
+            "Amplitude": 0.015022527036099402,
+            "PeakDbfs": -36.46514011425158,
+            "Rms": 0.010614504306094456,
+            "TonePurity": 1.0007561758381
+          },
+          {
+            "FrequencyHz": 125,
+            "Amplitude": 0.014999999978981837,
+            "PeakDbfs": -36.47817483105714,
+            "Rms": 0.010606601712381246,
+            "TonePurity": 0.9999999991095055
+          },
+          {
+            "FrequencyHz": 250,
+            "Amplitude": 0.014999999975416928,
+            "PeakDbfs": -36.47817483312143,
+            "Rms": 0.010606601684506872,
+            "TonePurity": 1.0000000014998662
+          },
+          {
+            "FrequencyHz": 1000,
+            "Amplitude": 0.014999999754520038,
+            "PeakDbfs": -36.47817496103383,
+            "Rms": 0.010606601533805906,
+            "TonePurity": 1.00000000098163
+          },
+          {
+            "FrequencyHz": 4000,
+            "Amplitude": 0.01499999959021021,
+            "PeakDbfs": -36.47817505617897,
+            "Rms": 0.01060660151236891,
+            "TonePurity": 0.9999999920487409
+          },
+          {
+            "FrequencyHz": 8000,
+            "Amplitude": 0.01499999951569702,
+            "PeakDbfs": -36.47817509932653,
+            "Rms": 0.010606601398038264,
+            "TonePurity": 0.9999999978603916
+          }
+        ]
+      }
+    }
+  ],
+  "AudioPlayed": false
+}

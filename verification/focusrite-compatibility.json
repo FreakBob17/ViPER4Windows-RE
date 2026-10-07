@@ -1,0 +1,38 @@
+{
+  "Fixed": true,
+  "Error": "AUDCLNT_E_RAW_MODE_UNSUPPORTED / 0x88890027",
+  "Output": {
+    "Id": "{0.0.0.00000000}.{88accda8-b606-45a4-8727-db612a69af62}",
+    "Name": "Динамики (Focusrite USB Audio)",
+    "State": 1,
+    "IsVirtual": false,
+    "MixFormat": {
+      "SampleRate": 44100,
+      "Channels": 2,
+      "BitsPerSample": 32,
+      "ValidBits": 32,
+      "BlockAlign": 8,
+      "ChannelMask": "0x3",
+      "Encoding": "IEEE float"
+    },
+    "DefaultPeriodMilliseconds": 10,
+    "MinimumPeriodMilliseconds": 3
+  },
+  "Fallback": "Standard shared-mode WASAPI output; ViPERDSP processing remains the same. Active ViPER APO on a non-RAW destination blocks routing to prevent double processing.",
+  "ApplicationSha256": "1e293d1b2f9d821eeba500fce87ec32a33f1fe0a3bf195722d5522bfb3f76169",
+  "Bass63HzDifferenceDb": 14.878354942855296,
+  "Eq63HzDifferenceDb": 7.8408562913238224,
+  "MeasuredDelayMs": [
+    130,
+    140,
+    140,
+    140,
+    130
+  ],
+  "NoDryBypass": true,
+  "DefaultRolesRestored": true,
+  "FramesIn120Seconds": 5801280,
+  "DroppedFrames": 0,
+  "Underruns": 0,
+  "Limitations": "Generated quiet tones and physical speaker loopback were measured. This is not an analog hardware recording or an Android waveform comparison. Standard output may retain effects of the physical output device."
+}

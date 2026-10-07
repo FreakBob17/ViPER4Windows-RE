@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "pages": 5,
+  "themes": 2,
+  "allEffectCardsRendered": 18,
+  "repeatRender": true,
+  "scrollBefore": 650,
+  "scrollAfterRender": 650,
+  "scrollAfterEffectClick": 650
+}

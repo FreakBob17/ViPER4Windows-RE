@@ -1,0 +1,8 @@
+[project]
+name = "viper-layout-gen"
+version = "0.1.0"
+description = "Codegen for ViperParamsLayout.swift via libclang AST + C++ probe"
+requires-python = "==3.11.*"
+dependencies = [
+    "libclang==18.1.1",
+]

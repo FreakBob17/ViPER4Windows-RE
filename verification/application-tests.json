@@ -1,0 +1,56 @@
+{
+  "generatedUtc": "2026-10-07T17:04:26.8532772Z",
+  "target": "Windows x64",
+  "nativeVersion": "ViPERDSP db1c11c / Windows x64; V4A RE 0.6.1-compatible commands, completed convolution/VHE/FET",
+  "passed": true,
+  "tests": [
+    {
+      "name": "Exact APK catalog",
+      "passed": true
+    },
+    {
+      "name": "Android XML roundtrip",
+      "passed": true
+    },
+    {
+      "name": "JSON roundtrip",
+      "passed": true
+    },
+    {
+      "name": "Legacy raw volume import",
+      "passed": true
+    },
+    {
+      "name": "Preset XXE rejection",
+      "passed": true
+    },
+    {
+      "name": "All original defaults reach native DLL",
+      "passed": true
+    },
+    {
+      "name": "Disabled master is exact bypass",
+      "passed": true
+    },
+    {
+      "name": "Actual bass processing changes samples",
+      "passed": true
+    },
+    {
+      "name": "IR and DDC asset loaders",
+      "passed": true
+    },
+    {
+      "name": "44.1 kHz impulse adapts to 48 kHz",
+      "passed": true
+    },
+    {
+      "name": "WAV export compensates DSP latency and retains last frame",
+      "passed": true
+    },
+    {
+      "name": "APO v2 local IPC publication",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType><TargetFramework>net8.0-windows</TargetFramework><Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks><PlatformTarget>x64</PlatformTarget><ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../source/WindowsAudio.cs" Link="Production/WindowsAudio.cs" />
+    <Compile Include="../../source/SystemAudioHost.cs" Link="Production/SystemAudioHost.cs" />
+    <Compile Include="../../source/VirtualAudioRoute.cs" Link="Production/VirtualAudioRoute.cs" />
+    <Compile Include="../../source/DriverSetup.cs" Link="Production/DriverSetup.cs" />
+    <Compile Include="../../source/CoreAudioProbe.cs" Link="Production/CoreAudioProbe.cs" />
+    <Compile Include="../../source/ApoBridge.cs" Link="Production/ApoBridge.cs" />
+    <Compile Include="../../source/DspEngine.cs" Link="Production/DspEngine.cs" />
+    <Compile Include="../../source/WaveFile.cs" Link="Production/WaveFile.cs" />
+    <Compile Include="../../source/ImpulseResampler.cs" Link="Production/ImpulseResampler.cs" />
+  </ItemGroup>
+</Project>

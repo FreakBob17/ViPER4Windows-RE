@@ -1,0 +1,87 @@
+{
+  "Checks": [
+    {
+      "SampleRate": 44100,
+      "Mode": "baseline",
+      "Passed": true,
+      "Master": false,
+      "SnapshotBytes": 1144,
+      "Peak": 0.015
+    },
+    {
+      "SampleRate": 44100,
+      "Mode": "master",
+      "Passed": true,
+      "Master": true,
+      "SnapshotBytes": 1144,
+      "Peak": 0.015
+    },
+    {
+      "SampleRate": 44100,
+      "Mode": "bass",
+      "Passed": true,
+      "Master": true,
+      "SnapshotBytes": 1144,
+      "Peak": 0.089953676
+    },
+    {
+      "SampleRate": 44100,
+      "Mode": "eq",
+      "Passed": true,
+      "Master": true,
+      "SnapshotBytes": 1144,
+      "Peak": 0.037722375
+    },
+    {
+      "SampleRate": 44100,
+      "Mode": "baseline-after",
+      "Passed": true,
+      "Master": false,
+      "SnapshotBytes": 1144,
+      "Peak": 0.015
+    },
+    {
+      "SampleRate": 48000,
+      "Mode": "baseline",
+      "Passed": true,
+      "Master": false,
+      "SnapshotBytes": 1144,
+      "Peak": 0.015
+    },
+    {
+      "SampleRate": 48000,
+      "Mode": "master",
+      "Passed": true,
+      "Master": true,
+      "SnapshotBytes": 1144,
+      "Peak": 0.015
+    },
+    {
+      "SampleRate": 48000,
+      "Mode": "bass",
+      "Passed": true,
+      "Master": true,
+      "SnapshotBytes": 1144,
+      "Peak": 0.08996223
+    },
+    {
+      "SampleRate": 48000,
+      "Mode": "eq",
+      "Passed": true,
+      "Master": true,
+      "SnapshotBytes": 1144,
+      "Peak": 0.037722416
+    },
+    {
+      "SampleRate": 48000,
+      "Mode": "baseline-after",
+      "Passed": true,
+      "Master": false,
+      "SnapshotBytes": 1144,
+      "Peak": 0.015
+    }
+  ],
+  "AudioPlayed": false,
+  "CaptureStarted": false,
+  "SharedParametersModified": false
+}

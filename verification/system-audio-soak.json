@@ -1,0 +1,54 @@
+{
+  "Passed": true,
+  "DurationSeconds": 120.2388774,
+  "ProcessedFrames": 5772000,
+  "RenderedFrames": 5770810,
+  "DroppedFrames": 0,
+  "Underruns": 0,
+  "Discontinuities": 1,
+  "Error": "",
+  "Samples": [
+    {
+      "Seconds": 20.2036087,
+      "ProcessedFrames": 970080,
+      "QueueMilliseconds": 21.083333333333332,
+      "DroppedFrames": 0,
+      "Underruns": 0
+    },
+    {
+      "Seconds": 40.4145538,
+      "ProcessedFrames": 1940160,
+      "QueueMilliseconds": 22.729166666666668,
+      "DroppedFrames": 0,
+      "Underruns": 0
+    },
+    {
+      "Seconds": 60.6409384,
+      "ProcessedFrames": 2911200,
+      "QueueMilliseconds": 23.625,
+      "DroppedFrames": 0,
+      "Underruns": 0
+    },
+    {
+      "Seconds": 80.8188043,
+      "ProcessedFrames": 3879840,
+      "QueueMilliseconds": 34,
+      "DroppedFrames": 0,
+      "Underruns": 0
+    },
+    {
+      "Seconds": 100.0158658,
+      "ProcessedFrames": 4801440,
+      "QueueMilliseconds": 34.5625,
+      "DroppedFrames": 0,
+      "Underruns": 0
+    },
+    {
+      "Seconds": 120.2255518,
+      "ProcessedFrames": 5771520,
+      "QueueMilliseconds": 34.791666666666664,
+      "DroppedFrames": 0,
+      "Underruns": 0
+    }
+  ]
+}

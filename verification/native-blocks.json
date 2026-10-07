@@ -1,0 +1,100 @@
+{
+  "passed": true,
+  "patterns": {
+    "large": [
+      100000
+    ],
+    "480": [
+      480
+    ],
+    "odd": [
+      1,
+      2,
+      15,
+      127,
+      257,
+      480,
+      4095,
+      4096,
+      4097
+    ]
+  },
+  "results": {
+    "dry/large": {
+      "frames": 24017,
+      "first_nonzero_frame": 256,
+      "maximum_difference_from_large_blocks": 0.0
+    },
+    "dry/480": {
+      "frames": 24017,
+      "first_nonzero_frame": 256,
+      "maximum_difference_from_large_blocks": 0.0
+    },
+    "dry/odd": {
+      "frames": 24017,
+      "first_nonzero_frame": 256,
+      "maximum_difference_from_large_blocks": 0.0
+    },
+    "convolver/large": {
+      "frames": 24017,
+      "first_nonzero_frame": 256,
+      "maximum_difference_from_large_blocks": 0.0
+    },
+    "convolver/480": {
+      "frames": 24017,
+      "first_nonzero_frame": 256,
+      "maximum_difference_from_large_blocks": 5.21540641784668e-08
+    },
+    "convolver/odd": {
+      "frames": 24017,
+      "first_nonzero_frame": 256,
+      "maximum_difference_from_large_blocks": 3.725290298461914e-08
+    },
+    "vhe/large": {
+      "frames": 24017,
+      "first_nonzero_frame": 256,
+      "maximum_difference_from_large_blocks": 0.0
+    },
+    "vhe/480": {
+      "frames": 24017,
+      "first_nonzero_frame": 256,
+      "maximum_difference_from_large_blocks": 8.940696716308594e-08
+    },
+    "vhe/odd": {
+      "frames": 24017,
+      "first_nonzero_frame": 256,
+      "maximum_difference_from_large_blocks": 8.940696716308594e-08
+    },
+    "fet/large": {
+      "frames": 24017,
+      "first_nonzero_frame": 256,
+      "maximum_difference_from_large_blocks": 0.0
+    },
+    "fet/480": {
+      "frames": 24017,
+      "first_nonzero_frame": 256,
+      "maximum_difference_from_large_blocks": 0.0
+    },
+    "fet/odd": {
+      "frames": 24017,
+      "first_nonzero_frame": 256,
+      "maximum_difference_from_large_blocks": 0.0
+    },
+    "analog/large": {
+      "frames": 24017,
+      "first_nonzero_frame": 12544,
+      "maximum_difference_from_large_blocks": 0.0
+    },
+    "analog/480": {
+      "frames": 24017,
+      "first_nonzero_frame": 12256,
+      "maximum_difference_from_large_blocks": 0.11179817467927933
+    },
+    "analog/odd": {
+      "frames": 24017,
+      "first_nonzero_frame": 13425,
+      "maximum_difference_from_large_blocks": 0.11179886013269424
+    }
+  },
+  "notes": "AnalogX upstream startup mute rounds to processing blocks. Frame counts and finite outputs preserved."
+}

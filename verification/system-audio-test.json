@@ -1,0 +1,495 @@
+{
+  "Passed": true,
+  "NoUnprocessedBypass": true,
+  "BassChangedOnPhysicalOutput": true,
+  "EqChangedOnPhysicalOutput": true,
+  "RoutingPassed": true,
+  "RestorationPassed": true,
+  "Results": [
+    {
+      "Mode": "unrouted",
+      "Analysis": {
+        "Rms": 0,
+        "Peak": 0,
+        "SignalDetected": false,
+        "EstimatedStartOffsetMilliseconds": 0,
+        "Tones": [
+          {
+            "FrequencyHz": 63,
+            "Amplitude": 0,
+            "PeakDbfs": null,
+            "Rms": 0,
+            "TonePurity": 0
+          },
+          {
+            "FrequencyHz": 125,
+            "Amplitude": 0,
+            "PeakDbfs": null,
+            "Rms": 0,
+            "TonePurity": 0
+          },
+          {
+            "FrequencyHz": 250,
+            "Amplitude": 0,
+            "PeakDbfs": null,
+            "Rms": 0,
+            "TonePurity": 0
+          },
+          {
+            "FrequencyHz": 1000,
+            "Amplitude": 0,
+            "PeakDbfs": null,
+            "Rms": 0,
+            "TonePurity": 0
+          },
+          {
+            "FrequencyHz": 4000,
+            "Amplitude": 0,
+            "PeakDbfs": null,
+            "Rms": 0,
+            "TonePurity": 0
+          },
+          {
+            "FrequencyHz": 8000,
+            "Amplitude": 0,
+            "PeakDbfs": null,
+            "Rms": 0,
+            "TonePurity": 0
+          }
+        ]
+      },
+      "ProcessedFrames": 0,
+      "RenderedFrames": 0,
+      "Discontinuities": 0,
+      "DroppedFrames": 0,
+      "Underruns": 0,
+      "QueueMilliseconds": 0,
+      "Error": ""
+    },
+    {
+      "Mode": "baseline",
+      "Analysis": {
+        "Rms": 0.008627124714455826,
+        "Peak": 0.015000599436461926,
+        "SignalDetected": true,
+        "EstimatedStartOffsetMilliseconds": 100.00000000000003,
+        "Tones": [
+          {
+            "FrequencyHz": 63,
+            "Amplitude": 0.014948668870506375,
+            "PeakDbfs": -36.50794956208476,
+            "Rms": 0.010588398154528585,
+            "TonePurity": 0.9982912404485337
+          },
+          {
+            "FrequencyHz": 125,
+            "Amplitude": 0.015000023398169788,
+            "PeakDbfs": -36.47816126996891,
+            "Rms": 0.01060661837677246,
+            "TonePurity": 0.9999999892548482
+          },
+          {
+            "FrequencyHz": 250,
+            "Amplitude": 0.014999944589913274,
+            "PeakDbfs": -36.47820690467218,
+            "Rms": 0.010606595705766907,
+            "TonePurity": 0.9999968728121931
+          },
+          {
+            "FrequencyHz": 1000,
+            "Amplitude": 0.014999560639928649,
+            "PeakDbfs": -36.47842923815186,
+            "Rms": 0.010606658604637841,
+            "TonePurity": 0.9999653461717619
+          },
+          {
+            "FrequencyHz": 4000,
+            "Amplitude": 0.014994512674624729,
+            "PeakDbfs": -36.481352887066144,
+            "Rms": 0.010606616170558527,
+            "TonePurity": 0.999632816189337
+          },
+          {
+            "FrequencyHz": 8000,
+            "Amplitude": 0.014980860412788134,
+            "PeakDbfs": -36.489264851829766,
+            "Rms": 0.010606557727271222,
+            "TonePurity": 0.9987281697109942
+          }
+        ]
+      },
+      "ProcessedFrames": 266400,
+      "RenderedFrames": 264994,
+      "Discontinuities": 1,
+      "DroppedFrames": 0,
+      "Underruns": 0,
+      "QueueMilliseconds": 29.291666666666668,
+      "Error": ""
+    },
+    {
+      "Mode": "master",
+      "Analysis": {
+        "Rms": 0.008627153988762197,
+        "Peak": 0.015000597573816776,
+        "SignalDetected": true,
+        "EstimatedStartOffsetMilliseconds": 100.00000000000003,
+        "Tones": [
+          {
+            "FrequencyHz": 63,
+            "Amplitude": 0.015015798727974988,
+            "PeakDbfs": -36.46903123276837,
+            "Rms": 0.010612127019245642,
+            "TonePurity": 1.0005320409591372
+          },
+          {
+            "FrequencyHz": 125,
+            "Amplitude": 0.015000029970933434,
+            "PeakDbfs": -36.478157463955704,
+            "Rms": 0.010606623025016025,
+            "TonePurity": 0.9999999891984902
+          },
+          {
+            "FrequencyHz": 250,
+            "Amplitude": 0.015000004594264107,
+            "PeakDbfs": -36.47817215853538,
+            "Rms": 0.010606605707422365,
+            "TonePurity": 0.9999999301389276
+          },
+          {
+            "FrequencyHz": 1000,
+            "Amplitude": 0.014999486215007797,
+            "PeakDbfs": -36.4784723359644,
+            "Rms": 0.010606710186557258,
+            "TonePurity": 0.9999555215893706
+          },
+          {
+            "FrequencyHz": 4000,
+            "Amplitude": 0.014992838882136887,
+            "PeakDbfs": -36.48232252100091,
+            "Rms": 0.01060669127328674,
+            "TonePurity": 0.9995141528722167
+          },
+          {
+            "FrequencyHz": 8000,
+            "Amplitude": 0.014977797001546337,
+            "PeakDbfs": -36.491041196589606,
+            "Rms": 0.010606611651445426,
+            "TonePurity": 0.99851886493701
+          }
+        ]
+      },
+      "ProcessedFrames": 267360,
+      "RenderedFrames": 265955,
+      "Discontinuities": 1,
+      "DroppedFrames": 0,
+      "Underruns": 0,
+      "QueueMilliseconds": 29.270833333333332,
+      "Error": ""
+    },
+    {
+      "Mode": "bass",
+      "Analysis": {
+        "Rms": 0.02361261539867508,
+        "Peak": 0.08291231095790863,
+        "SignalDetected": true,
+        "EstimatedStartOffsetMilliseconds": 90.00000000000003,
+        "Tones": [
+          {
+            "FrequencyHz": 63,
+            "Amplitude": 0.08318676166054471,
+            "PeakDbfs": -21.59891563649934,
+            "Rms": 0.05868156947692342,
+            "TonePurity": 1.0023917867134082
+          },
+          {
+            "FrequencyHz": 125,
+            "Amplitude": 0.04904929868197898,
+            "PeakDbfs": -26.187343957617063,
+            "Rms": 0.034683214501548,
+            "TonePurity": 0.9999964596396832
+          },
+          {
+            "FrequencyHz": 250,
+            "Amplitude": 0.014791823463045499,
+            "PeakDbfs": -36.599565700421024,
+            "Rms": 0.010459703845171552,
+            "TonePurity": 0.9999708243806597
+          },
+          {
+            "FrequencyHz": 1000,
+            "Amplitude": 0.013755621924772456,
+            "PeakDbfs": -37.230395386633404,
+            "Rms": 0.0097330157627275,
+            "TonePurity": 0.9993504356268733
+          },
+          {
+            "FrequencyHz": 4000,
+            "Amplitude": 0.014793827180720552,
+            "PeakDbfs": -36.598389179354946,
+            "Rms": 0.01055244398712259,
+            "TonePurity": 0.9913168486802639
+          },
+          {
+            "FrequencyHz": 8000,
+            "Amplitude": 0.014625270241910779,
+            "PeakDbfs": -36.69792200784035,
+            "Rms": 0.010595003377051902,
+            "TonePurity": 0.9760853674799417
+          }
+        ]
+      },
+      "ProcessedFrames": 266400,
+      "RenderedFrames": 264977,
+      "Discontinuities": 1,
+      "DroppedFrames": 0,
+      "Underruns": 0,
+      "QueueMilliseconds": 29.645833333333332,
+      "Error": ""
+    },
+    {
+      "Mode": "eq",
+      "Analysis": {
+        "Rms": 0.014194485403479867,
+        "Peak": 0.03721638396382332,
+        "SignalDetected": true,
+        "EstimatedStartOffsetMilliseconds": 90.00000000000003,
+        "Tones": [
+          {
+            "FrequencyHz": 63,
+            "Amplitude": 0.037042993216083425,
+            "PeakDbfs": -28.62587855821092,
+            "Rms": 0.02618831267682626,
+            "TonePurity": 1.0001924149056791
+          },
+          {
+            "FrequencyHz": 125,
+            "Amplitude": 0.035663905798943095,
+            "PeakDbfs": -28.95542191976959,
+            "Rms": 0.0252182265711079,
+            "TonePurity": 0.9999985353023576
+          },
+          {
+            "FrequencyHz": 250,
+            "Amplitude": 0.020619432024357974,
+            "PeakDbfs": -33.71446603622413,
+            "Rms": 0.014580346596963343,
+            "TonePurity": 0.9999858447586698
+          },
+          {
+            "FrequencyHz": 1000,
+            "Amplitude": 0.014318460164391473,
+            "PeakDbfs": -36.88207368814072,
+            "Rms": 0.010129477273905728,
+            "TonePurity": 0.9995264320768628
+          },
+          {
+            "FrequencyHz": 4000,
+            "Amplitude": 0.01390359567224403,
+            "PeakDbfs": -37.13745740689915,
+            "Rms": 0.00989459111026965,
+            "TonePurity": 0.9936061705991772
+          },
+          {
+            "FrequencyHz": 8000,
+            "Amplitude": 0.013527387422774833,
+            "PeakDbfs": -37.375721433061734,
+            "Rms": 0.009705147197171657,
+            "TonePurity": 0.9855911697217007
+          }
+        ]
+      },
+      "ProcessedFrames": 266400,
+      "RenderedFrames": 264982,
+      "Discontinuities": 1,
+      "DroppedFrames": 0,
+      "Underruns": 0,
+      "QueueMilliseconds": 29.541666666666668,
+      "Error": ""
+    },
+    {
+      "Mode": "baseline-after",
+      "Analysis": {
+        "Rms": 0.008635569318096436,
+        "Peak": 0.015000286512076855,
+        "SignalDetected": true,
+        "EstimatedStartOffsetMilliseconds": 80.00000000000001,
+        "Tones": [
+          {
+            "FrequencyHz": 63,
+            "Amplitude": 0.014947568754688955,
+            "PeakDbfs": -36.50858880537037,
+            "Rms": 0.010587875097484743,
+            "TonePurity": 0.9982670867739661
+          },
+          {
+            "FrequencyHz": 125,
+            "Amplitude": 0.015000032896106996,
+            "PeakDbfs": -36.47815577011027,
+            "Rms": 0.010606639512185184,
+            "TonePurity": 0.9999986297897063
+          },
+          {
+            "FrequencyHz": 250,
+            "Amplitude": 0.014999709392738312,
+            "PeakDbfs": -36.4783430993567,
+            "Rms": 0.010606623076064853,
+            "TonePurity": 0.9999786125489314
+          },
+          {
+            "FrequencyHz": 1000,
+            "Amplitude": 0.014990232533666862,
+            "PeakDbfs": -36.48383260346791,
+            "Rms": 0.010606960876426165,
+            "TonePurity": 0.9993149969730468
+          },
+          {
+            "FrequencyHz": 4000,
+            "Amplitude": 0.014862718204021203,
+            "PeakDbfs": -36.558035126379494,
+            "Rms": 0.010606882583807972,
+            "TonePurity": 0.9908216430123916
+          },
+          {
+            "FrequencyHz": 8000,
+            "Amplitude": 0.014578372502344604,
+            "PeakDbfs": -36.72581913998108,
+            "Rms": 0.010606340000428082,
+            "TonePurity": 0.9719154821225142
+          }
+        ]
+      },
+      "ProcessedFrames": 266400,
+      "RenderedFrames": 264979,
+      "Discontinuities": 1,
+      "DroppedFrames": 0,
+      "Underruns": 0,
+      "QueueMilliseconds": 29.604166666666668,
+      "Error": ""
+    }
+  ],
+  "Comparison": {
+    "master": [
+      {
+        "FrequencyHz": 63,
+        "DifferenceDb": 0.038918329316386696
+      },
+      {
+        "FrequencyHz": 125,
+        "DifferenceDb": 3.8060132046174715E-06
+      },
+      {
+        "FrequencyHz": 250,
+        "DifferenceDb": 3.474613679808907E-05
+      },
+      {
+        "FrequencyHz": 1000,
+        "DifferenceDb": -4.309781253785888E-05
+      },
+      {
+        "FrequencyHz": 4000,
+        "DifferenceDb": -0.0009696339347605718
+      },
+      {
+        "FrequencyHz": 8000,
+        "DifferenceDb": -0.0017763447598464438
+      }
+    ],
+    "bass": [
+      {
+        "FrequencyHz": 63,
+        "DifferenceDb": 14.909033925585419
+      },
+      {
+        "FrequencyHz": 125,
+        "DifferenceDb": 10.290817312351844
+      },
+      {
+        "FrequencyHz": 250,
+        "DifferenceDb": -0.12135879574883912
+      },
+      {
+        "FrequencyHz": 1000,
+        "DifferenceDb": -0.7519661484815433
+      },
+      {
+        "FrequencyHz": 4000,
+        "DifferenceDb": -0.1170362922887982
+      },
+      {
+        "FrequencyHz": 8000,
+        "DifferenceDb": -0.20865715601058252
+      }
+    ],
+    "eq": [
+      {
+        "FrequencyHz": 63,
+        "DifferenceDb": 7.882071003873836
+      },
+      {
+        "FrequencyHz": 125,
+        "DifferenceDb": 7.522739350199318
+      },
+      {
+        "FrequencyHz": 250,
+        "DifferenceDb": 2.7637408684480516
+      },
+      {
+        "FrequencyHz": 1000,
+        "DifferenceDb": -0.4036444499888641
+      },
+      {
+        "FrequencyHz": 4000,
+        "DifferenceDb": -0.6561045198330078
+      },
+      {
+        "FrequencyHz": 8000,
+        "DifferenceDb": -0.8864565812319725
+      }
+    ],
+    "baseline-after": [
+      {
+        "FrequencyHz": 63,
+        "DifferenceDb": -0.0006392432856138401
+      },
+      {
+        "FrequencyHz": 125,
+        "DifferenceDb": 5.499858637894994E-06
+      },
+      {
+        "FrequencyHz": 250,
+        "DifferenceDb": -0.0001361946845201528
+      },
+      {
+        "FrequencyHz": 1000,
+        "DifferenceDb": -0.005403365316055843
+      },
+      {
+        "FrequencyHz": 4000,
+        "DifferenceDb": -0.07668223931334356
+      },
+      {
+        "FrequencyHz": 8000,
+        "DifferenceDb": -0.23655428815131702
+      }
+    ]
+  },
+  "SourceEndpoint": "{0.0.0.00000000}.{df8b4c41-ca90-47f2-9875-739cac727724}",
+  "PhysicalEndpoint": {
+    "Id": "{0.0.0.00000000}.{7503c3b2-a874-4df3-ad4a-bab4da4aaf0a}",
+    "Name": "\u0414\u0438\u043D\u0430\u043C\u0438\u043A\u0438 \u0441 \u0437\u0430\u0434\u043D\u0435\u0439 \u0441\u0442\u043E\u0440\u043E\u043D\u044B (Realtek USB2.0 Audio)",
+    "State": 1,
+    "IsVirtual": false,
+    "MixFormat": {
+      "SampleRate": 48000,
+      "Channels": 2,
+      "BitsPerSample": 32,
+      "ValidBits": 32,
+      "BlockAlign": 8,
+      "ChannelMask": "0x3",
+      "Encoding": "IEEE float"
+    },
+    "DefaultPeriodMilliseconds": 10,
+    "MinimumPeriodMilliseconds": 3
+  },
+  "TimestampUtc": "2026-10-07T16:57:10.0027341+00:00"
+}
